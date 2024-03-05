@@ -207,9 +207,9 @@ function Header() {
                                         admission
                                     </Link>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" href="#">Admission Policy</a></li>
-                                        <li><a className="dropdown-item" href="#">Exam Policy</a></li>
-                                        <li><a className="dropdown-item" href="#">Hostel Policy</a></li>
+                                        <li><Link to={'/admission-policy'} className="dropdown-item">Admission Policy</Link></li>
+                                        <li><Link to={'/exam-policy'} className="dropdown-item">Exam Policy</Link></li>
+                                        <li><Link to={'/hostel-policy'} className="dropdown-item">Hostel Policy</Link></li>
                                         <li><Link to={'/fee-structure'} className="dropdown-item">Fee Structure</Link></li>
                                     </ul>
                                 </li>
@@ -370,9 +370,9 @@ function Header() {
                                         admission
                                     </Link>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" href="#">Admission Policy</a></li>
-                                        <li><a className="dropdown-item" href="#">Exam Policy</a></li>
-                                        <li><a className="dropdown-item" href="#">Hostel Policy</a></li>
+                                        <li><Link to={'/admission-policy'} className="dropdown-item">Admission Policy</Link></li>
+                                        <li><Link to={'/exam-policy'} className="dropdown-item">Exam Policy</Link></li>
+                                        <li><Link to={'/hostel-policy'} className="dropdown-item">Hostel Policy</Link></li>
                                         <li><Link to={'/fee-structure'} className="dropdown-item">Fee Structure</Link></li>
                                     </ul>
                                 </li>

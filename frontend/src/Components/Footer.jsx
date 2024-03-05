@@ -46,7 +46,7 @@ function Footer() {
                                     </li>
                                 </ul>
                             </div> */}
-                            <div className="col-lg-6 col-md-12 col-l2 text-justify" style={{paddingLeft:'40px'}}>
+                            <div className="col-lg-6 col-md-12 col-l2 ps-lg-5 text-justify">
                                 <h6>GET IN TOUCH</h6>
                                 <ul className="address">
                                     <li>

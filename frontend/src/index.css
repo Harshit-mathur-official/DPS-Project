@@ -955,6 +955,62 @@ thead tr th {
   font-size: 14px;
 }
 
+.admission-policy {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.admission-policy h3 {
+  color: orange;
+  font-weight: bold;
+}
+
+.admission-policy ol li {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.exam-policy {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.exam-policy table thead tr th {
+  background-color: orange;
+  color: #fff;
+}
+
+.exam-policy table thead tr th h4 {
+  font-weight: bold;
+}
+
+.exam-policy table thead tr th h6 {
+  font-weight: bold;
+}
+
+.hostel-policy {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.hostel-policy h3 {
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hostel-policy p {
+  font-size: 18px;
+}
+
+.hostel-policy ol li {
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+.hostel-policy .formalitiesHostel {
+  padding-left: 30px;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .icons {
     display: none;
@@ -1245,6 +1301,7 @@ thead tr th {
   .explore-us iframe {
     height: 350px;
   }
+  
 }
 
 

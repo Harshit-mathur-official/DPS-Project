@@ -17,6 +17,9 @@ import SeniorWing from './Pages/SeniorWing';
 import AlumniRegister from './Pages/AlumniRegister';
 import Hostel from './Pages/Hostel';
 import Faculty from './Pages/Faculty';
+import AdmissionPolicy from './Pages/AdmissionPolicy';
+import HostelPolicy from './Pages/HostelPolicy';
+import ExamPolicy from './Pages/ExamPolicy';
 
 
 const router = createBrowserRouter([
@@ -63,6 +66,18 @@ const router = createBrowserRouter([
   {
     path: '/faculty',
     element: <Faculty />
+  },
+  {
+    path: '/admission-policy',
+    element: <AdmissionPolicy/>
+  },
+  {
+    path: '/hostel-policy',
+    element: <HostelPolicy/>
+  },
+  {
+    path: '/exam-policy',
+    element: <ExamPolicy/>
   }
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
