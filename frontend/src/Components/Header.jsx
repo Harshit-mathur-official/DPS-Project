@@ -7,6 +7,17 @@ import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
 import { faFacebookF, faSquareXTwitter, faTwitter, faWhatsapp, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 function Header() {
+    const sendMessage = () => {
+        const phoneNumber = '7737880141';
+        const message = encodeURIComponent('Hello!');
+        
+        // Construct the WhatsApp API URL
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+    
+        // Open the WhatsApp URL in a new window
+        window.open(whatsappUrl);
+      };
+
     return (
         <>
             {/* Model Section */}
@@ -68,8 +79,7 @@ function Header() {
                         </a>
                     </div>
                     <div className="whatsappicons">
-                        <a href="#"
-                            onclick="window.open('https://api.whatsapp.com/send?phone=+917737880141&amp;text=Hi', '_blank');">
+                        <a href="#" onClick={sendMessage} target='_blank'>
                             <FontAwesomeIcon icon={faWhatsapp} />
                         </a>
                     </div>
@@ -333,35 +343,19 @@ function Header() {
                                         <FontAwesomeIcon icon={faHouse} style={{ fontSize: '18px', color: '#002100' }} />
                                     </Link>
                                 </li>
-                                <li className="nav-item dropdown dropdown-slide dropdown-hover">
-                                    <Link to={'/about'} className="nav-link fw-bolder dropdown-toggle" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        About us
+                                <li className="nav-item dropdown">
+                                    <Link to={'#'} className="nav-link fw-bolder dropdown-toggle" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        About Us
                                     </Link>
-                                    <ul className="dropdown-menu" style={{ position: 'absolute', left: '-100px' }}>
-                                        <div className="container">
-                                            <div className="row" style={{ width: '800px' }}>
-                                                <div className="col-lg-4 py-3">
-                                                    <img src={dpslogopng1024x1024} className="img-fluid" alt="" style={{ padding: '0 20px' }} />
-                                                </div>
-                                                <div className="col-lg-4 py-3">
-                                                    <h3 className="fs-4">Delhi Public School</h3>
-                                                    <p>Affilated to CBSE<br />(Affiliation.No.1730156)</p>
-                                                    <button className="about-button" href="about.html">Read More</button>
-                                                </div>
-                                                <div className="col-lg-4 py-3">
-                                                    <ul className="about-section fs-6">
-                                                        <li>At a Glance</li>
-                                                        <li><a href="about.html#authoritiesMessages">Authorities Messages</a></li>
-                                                        <li>School Management Committee</li>
-                                                        <li><Link to={'/faculty'}>Our Team</Link></li>
-                                                        <li><a href="about.html#visionandMission">Vision & Mission</a></li>
-                                                        <li><a href="about.html#infrastructure">Infrastructure</a></li>
-                                                        <li><a href="about.html#virtualtour">Virtual Tour</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <ul className="dropdown-menu">
+                                        <li><Link to={'#'} className="dropdown-item">At a Glance</Link></li>
+                                        <li><a href="about.html#authoritiesMessages" className="dropdown-item">Authorities Messages</a></li>
+                                        <li><a href="#" className="dropdown-item">School Management Committee</a></li>
+                                        <li><Link to={'/faculty'} className='dropdown-item'>Our Team</Link></li>
+                                        <li><a href="about.html#visionandMission" className='dropdown-item'>Vision & Mission</a></li>
+                                        <li><a href="about.html#infrastructure" className='dropdown-item'>Infrastructure</a></li>
+                                        <li><a href="about.html#virtualtour" className='dropdown-item'>Virtual Tour</a></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown">

@@ -1321,7 +1321,23 @@ thead tr th {
   }
 
   .dropdown-menu {
-    display: none !important;
+    display: none;
+  }
+
+  .dropdown {
+    .dropdown-menu {
+      transition: all ease .5s;
+      overflow: hidden;
+      transform-origin: top center;
+      transform: scale(1, 0);
+      display: none;
+    }
+
+    &:hover {
+      .dropdown-menu {
+        transform: scale(1);
+      }
+    }
   }
 
   .authorities_message .image img {

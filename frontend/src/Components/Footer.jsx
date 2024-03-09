@@ -2,6 +2,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
+    const sendMessage = () => {
+        const phoneNumber = '1234567890';
+        const message = encodeURIComponent('Hello!');
+
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+        window.open(whatsappUrl);
+    };
+
+
     return (
         <>
             {/* Footer Section */}
@@ -69,27 +78,26 @@ function Footer() {
             <section>
                 <div className="container-fluid bottom-layer">
                     <div className="row">
-                        <div className="col-4 p-0 mx-auto" style={{borderRight:'1px solid #fff'}}>
+                        <div className="col-4 p-0 mx-auto" style={{ borderRight: '1px solid #fff' }}>
                             <button className="btn" type="button">
                                 <a href="tel:91797 6447530">
-                                    <FontAwesomeIcon icon={faPhone} style={{paddingRight:'3px'}}/>
+                                    <FontAwesomeIcon icon={faPhone} style={{ paddingRight: '3px' }} />
                                     Call
                                 </a>
                             </button>
                         </div>
-                        <div className="col-4 p-0 mx-auto" style={{borderRight:'1px solid #fff'}}>
+                        <div className="col-4 p-0 mx-auto" style={{ borderRight: '1px solid #fff' }}>
                             <button type="button" className="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                 <a href="#">
-                                    <FontAwesomeIcon icon={faEnvelope} style={{paddingRight:'3px'}}/>
+                                    <FontAwesomeIcon icon={faEnvelope} style={{ paddingRight: '3px' }} />
                                     Enquire
                                 </a>
                             </button>
                         </div>
-                        <div className="col-4 p-0 mx-auto" style={{borderRight:'1px solid #fff'}}>
+                        <div className="col-4 p-0 mx-auto" style={{ borderRight: '1px solid #fff' }}>
                             <button className="btn" type="button">
-                                <a href="#"
-                                    onClick="window.open('https://api.whatsapp.com/send?phone=+917976447530&amp;text=Hi%21+I%27m+Interested+In++%2ALodha+Property+Project%2A.+Please+Share+More+Details.', '_blank');">
-                                    <FontAwesomeIcon icon={faWhatsapp} style={{paddingRight:'3px'}}/>
+                                <a href="#" onClick={sendMessage} target="_blank">
+                                    <FontAwesomeIcon icon={faWhatsapp} style={{ paddingRight: '3px' }} />
                                     Message
                                 </a>
                             </button>
@@ -97,7 +105,7 @@ function Footer() {
                     </div>
                 </div>
             </section>
-            
+
         </>
     )
 }
