@@ -344,11 +344,10 @@ function Header() {
                                     </Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <Link to={'#'} className="nav-link fw-bolder dropdown-toggle" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <Link to={'/about'} className="nav-link fw-bolder">
                                         About Us
                                     </Link>
-                                    <ul className="dropdown-menu">
+                                    {/* <ul className="dropdown-menu">
                                         <li><Link to={'#'} className="dropdown-item">At a Glance</Link></li>
                                         <li><a href="about.html#authoritiesMessages" className="dropdown-item">Authorities Messages</a></li>
                                         <li><a href="#" className="dropdown-item">School Management Committee</a></li>
@@ -356,7 +355,7 @@ function Header() {
                                         <li><a href="about.html#visionandMission" className='dropdown-item'>Vision & Mission</a></li>
                                         <li><a href="about.html#infrastructure" className='dropdown-item'>Infrastructure</a></li>
                                         <li><a href="about.html#virtualtour" className='dropdown-item'>Virtual Tour</a></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li className="nav-item dropdown">
                                     <Link to={'#'} className="nav-link fw-bolder dropdown-toggle" role="button"
