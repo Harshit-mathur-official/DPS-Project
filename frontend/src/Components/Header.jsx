@@ -200,8 +200,8 @@ function Header() {
                                                     <ul className="about-section fs-6">
                                                         <li>At a Glance</li>
                                                         <li><a href="about.html#authoritiesMessages">Authorities Messages</a></li>
-                                                        <li>School Management Committee</li>
-                                                        <li><Link to={'/faculty'}>Our Team</Link></li>
+                                                        <li>Management Committee</li>
+                                                        <li><Link to={'/faculty'}>Faculty Zone</Link></li>
                                                         <li><a href="about.html#visionandMission">Vision & Mission</a></li>
                                                         <li><a href="about.html#infrastructure">Infrastructure</a></li>
                                                         <li><a href="about.html#virtualtour">Virtual Tour</a></li>

@@ -35,7 +35,7 @@ function Footer() {
                                     </li>
                                 </ul>
                             </div>
-                            {/* <div className="col-lg-4 col-md-6 col-12 footer-right">
+                            {/* <div className="col-lg-4 col-sm-6 col-12 footer-right">
                                 <h6>ACADEMICS</h6>
                                 <ul className="at-glance">
                                     <li>
@@ -55,7 +55,7 @@ function Footer() {
                                     </li>
                                 </ul>
                             </div> */}
-                            <div className="col-lg-6 col-md-12 col-l2 ps-lg-5 text-justify">
+                            <div className="col-lg-6 col-md-6 col-l2 ps-5  text-justify">
                                 <h6>GET IN TOUCH</h6>
                                 <ul className="address">
                                     <li>
@@ -80,7 +80,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-4 p-0 mx-auto" style={{ borderRight: '1px solid #fff' }}>
                             <button className="btn" type="button">
-                                <a href="tel:91797 6447530">
+                                <a href="tel:02912766886">
                                     <FontAwesomeIcon icon={faPhone} style={{ paddingRight: '3px' }} />
                                     Call
                                 </a>

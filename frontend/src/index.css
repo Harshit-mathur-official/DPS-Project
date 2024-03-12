@@ -625,7 +625,7 @@ footer {
 table {
   width: 100%;
   margin-top: 10px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 thead tr th {
@@ -1013,6 +1013,8 @@ thead tr th {
   padding-left: 30px;
 }
 
+
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .icons {
     display: none;
@@ -1304,6 +1306,10 @@ thead tr th {
     height: 350px;
   }
   
+  .exam-policy table.table-2 {
+    font-size: 6px !important;
+  }
+
 }
 
 
