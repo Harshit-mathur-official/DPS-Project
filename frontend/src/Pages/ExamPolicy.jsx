@@ -13,7 +13,7 @@ function ExamPolicy() {
 
                         </div>
                         <div class="col-lg-10 " style={{ margin: 'auto' }}>
-                            <table align="center" class="table table-bordered table-hover table-condensed" style={{width:'100%', margin: 'auto' }}>
+                            <table align="center" class="table table-bordered table-hover table-condensed" style={{ width: '100%', margin: 'auto' }}>
                                 <thead className="text-center">
                                     <tr>
                                         <th colSpan={2}>
@@ -67,11 +67,11 @@ function ExamPolicy() {
                         </div>
 
                         <div className="col-lg-10 pt-5" style={{ margin: 'auto' }}>
-                            <h3 className="text-center fw-bolder">EXAMINATION AND EVALUATION <br />
-                                Session : 2019-20 <br />
+                            <h3 className="text-center fw-bolder text-uppercase">EXAMINATION AND EVALUATION <br />
+                                Session : 2024-25 <br />
                                 Class : IX - X
                             </h3>
-                            <table align="center" className="table-2 table table-striped table-bordered table-hover table-condensed" style={{ width: '100%', margin: 'auto'}}>
+                            <table align="center" className="table-2 table table-striped table-bordered table-hover table-condensed" style={{ width: '100%', margin: 'auto' }}>
                                 <thead>
                                     <tr>
                                         <th style={{ width: '150px' }}></th>
@@ -154,6 +154,181 @@ function ExamPolicy() {
                                     </tr>
                                 </tbody>
                             </table>
+                        </div>
+
+                        <div className="col-lg-8 col-12 pt-5" style={{ margin: 'auto' }}>
+                            <h3 className="text-center fw-bolder text-uppercase fs-3">EXAMINATION AND EVALUATION <br />
+                                ASSESSMENT  SCHEDULE  Session : 2024-25 <br />
+                                Class : IX - X
+                            </h3>
+                            <h5 className="text-center fw-bolder text-uppercase pt-5">
+                                I - Term
+                            </h5>
+                            <table align="center" className="table table-striped table-bordered table-hover table-condensed" style={{ width: '100%', margin: 'auto' }}>
+                                <tbody>
+                                    <tr>
+                                        <td>I Periodic</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Subject Enrichment Activity </td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Notebook Assessment</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>II Periodic</td>
+                                        <td>10</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h5 className="text-center fw-bolder text-uppercase pt-5">
+                                ii - Term
+                            </h5>
+                            <table align="center" className="table table-striped table-bordered table-hover table-condensed" style={{ width: '100%', margin: 'auto' }}>
+                                <tbody>
+                                    <tr>
+                                        <td>III Periodic</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Subject Enrichment Activity </td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Notebook Assessment</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Annual Exam/Pre-Board Exam (X)</td>
+                                        <td>80</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table align="center" className="table table-striped table-bordered table-hover table-condensed mt-5" style={{ width: '100%', margin: 'auto' }}>
+                                <tbody>
+                                    <tr>
+                                        <td className="fw-bolder">I, II and III Periodic Test</td>
+                                        <td >
+                                            Weightage given	     <span>=	10% </span><br />
+                                            Marks alloted	=	50 Marks
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="fw-bolder">Subject Enrichment Activity </td>
+                                        <td>
+                                            Weightage given	=	5% <br />
+                                            Marks alloted	=	20 Marks
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="fw-bolder">Notebook Assessment</td>
+                                        <td>
+                                            Weightage given	=	5% <br />
+                                            Marks alloted	=	5, 4, 3, 2, 1 Marks
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="fw-bolder">Pre-Board (X) / Annual Exam (IX)</td>
+                                        <td>
+                                            Weightage given	=	80% <br />
+                                            Marks alloted	=	80 Marks
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="col-lg-10 col-12 pt-3" style={{ margin: 'auto' }}>
+                            <p className="fs-5" style={{ textAlign: 'justify', fontFamily: 'Cantarell' }}>Students using unfair means during weekly test / Peiodic Test / Half Yearly / Annual Examination will be marked zero in that subject and asked to leave the school after the session. No retest will be held for such students. These students will not be eligible for any academic awards or school appointment.</p>
+                        </div>
+
+                        <div className="col-lg-10 col-12 pt-5" style={{ margin: 'auto' }}>
+                            <h3 className="text-center fw-bolder text-uppercase fs-3">
+                                Class : XI <br />
+                                Session : 2024-25
+                            </h3>
+                            <p className="fs-5 ps-lg-5" style={{ textAlign: 'justify', fontFamily: 'Cantarell' }}>The academic year 2019-2020 will be divided into two terms and examination will be held at the end of the each term.</p>
+                            <table align="center" className="table-3 table table-striped table-bordered table-hover table-condensed" style={{ margin: 'auto' }}>
+                                <thead>
+                                    <tr>
+                                        <th colSpan={2}>TERM - I</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="ps-lg-5">Monday Test I </td>
+                                        <td>= 5%</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="ps-lg-5">Monday Test II </td>
+                                        <td>= 5%</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="ps-lg-5">Half Yearly </td>
+                                        <td>= 40%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table align="center" className="table-3 table table-striped table-bordered table-hover table-condensed mt-5" style={{ margin: 'auto' }}>
+                                <thead>
+                                    <tr>
+                                        <th colSpan={2}>TERM - II</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="ps-lg-5" style={{ width: '65%' }}>Monday Test III</td>
+                                        <td> = 5%</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="ps-lg-5">Monday Test IV</td>
+                                        <td> = 5%</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="ps-lg-5">Annual Exam </td>
+                                        <td> = 40%</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="ps-lg-5">Monday Test - 1+2+3+4 </td>
+                                        <td> = 20%</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="ps-lg-5">Half Yearly + Annual </td>
+                                        <td> = 80%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div className="pt-5" style={{ fontFamily: 'Cantarell' }}>
+                                <h5 className="fs-4 fw-bolder text-uppercase" style={{ textAlign: 'justify' }}>Monday Test : -</h5>
+                                <ol className="fs-5">
+                                    <li>Monday Test will be held in all the subjects, for classes, XI and XII, according to the schedule, 	which is given in the Almanac.</li>
+                                    <li>Monday Tests are compulsory for all the students for classes XI and XII. A medical certificate for 	absence has to be given to the Examination Department, failing which the student will be given zero.</li>
+                                    <li>The retest for such students will be held on the Saturday of the same week.</li>
+                                    <li>A student will be given two chances to appear for re-test in a year.</li>
+                                    <li>No Re-Exam of Term/Halfyearly/Annual Exam.</li>
+                                </ol>
+
+                                <h5 className="fs-4 fw-bolder text-uppercase" style={{ textAlign: 'justify' }}>PROMOTION  : -</h5>
+                                <ul className="fs-5">
+                                    <li>For class XI the student should get passing marks in the theory and the practical examination separately.</li>
+                                </ul>
+
+                                <h5 className="fs-4 fw-bolder text-uppercase" style={{ textAlign: 'justify' }}>COMPARTMENT   : -</h5>
+                                <ul className="fs-5">
+                                    <li>For class XI a clear pass (33%) in all the subjects and atleast <b>30%</b> in the subject failed in. The compartment exams will be held in the first week of April.</li>
+                                </ul>
+
+                                <h5 className="fs-4 fw-bolder text-uppercase" style={{ textAlign: 'justify' }}>FAILED    : -</h5>
+                                <ul className="fs-5">
+                                    <li>If a student fails in two or more subjects (if five subject combination)</li>
+                                    <li>If a student fails in three or more subjects (if six subject combination)</li>
+                                </ul>
+
+                                <p className="fs-5" style={{ textAlign: 'justify', fontFamily: 'Cantarell' }}>Students using unfair means during weekly test / Peiodic Test / Half Yearly / Annual Examination will be marked zero in that subject and asked to leave the school after the session. No retest will be held for such students. These students will not be eligible for any academic awards or school appointment.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
