@@ -14,7 +14,10 @@ app.get('', (request, response) => {
 });
 
 
-
+require('./app/routes/noticeCircular.route')(app);
+require('./app/routes/enquiry.route')(app);
+require('./app/routes/newsUpdate.route')(app);
+require('./app/routes/alumni.route')(app);
 
 
 app.use((request, response, next) => {

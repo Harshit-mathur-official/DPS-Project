@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
 
@@ -26,8 +26,33 @@ import Banner from '../images/SiteSlider.mp4'
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 function Home() {
+    const [newsData, setNewsData] = useState([])
+    useEffect(() => {
+        axios.get("http://localhost:5000/api/news/view")
+            .then(function (response) {
+                console.log(response.data.data[0]);
+                setNewsData(response.data.data);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }, [])
+
+    const [noticeData, setNoticeData] = useState([])
+    useEffect(() => {
+        axios.get("http://localhost:5000/api/notice/view")
+            .then(function (response) {
+                console.log(response.data.data[0]);
+                setNoticeData(response.data.data);
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    }, [])
+
 
     useEffect(() => {
         AOS.init({
@@ -39,7 +64,7 @@ function Home() {
 
     const settings = {
         dots: false,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -88,14 +113,14 @@ function Home() {
     return (
         <>
 
-            <Header/>
-            
+            <Header />
+
             {/* Slider Section Starts of DPS */}
             <section>
-                <div class="container-fluid slider px-0" style={{ backgroundColor: 'black' }}>
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-inner">
-                            <Player src={Banner} className="d-block w-100" autoPlay muted />
+                <div className="container-fluid slider px-0" style={{ backgroundColor: 'black' }}>
+                    <div id="carouselExampleIndicators" className="carousel slide">
+                        <div className="carousel-inner">
+                            <Player src={Banner} className="d-block w-100" autoPlay={true} muted />
                         </div>
                     </div>
                 </div>
@@ -103,14 +128,21 @@ function Home() {
 
             {/* News Update Section Start of DPS */}
             <section>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-2 col-12 text-center news-update">
-                            <h3 class="">News Update</h3>
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-lg-2 col-12 text-center news-update">
+                            <h3 className="">News Update</h3>
                         </div>
-                        <div class="col-lg-10 col-12 news-update-list">
+                        <div className="col-lg-10 col-12 news-update-list">
                             <Marquee direction="left" speed={30} delay={0} play pauseOnHover>
                                 <ul>
+                                    {/* {newsData.map((e, i) => {
+                                        return (
+                                            <li>
+                                                <a href="">{e.nname}</a>
+                                            </li>
+                                        )
+                                    })} */}
                                     <li>
                                         <a href="#">CBSE Class XII and X Results (2022-23)</a>
                                     </li>
@@ -165,9 +197,15 @@ function Home() {
                                     <h3>Notices & Circulars</h3>
                                 </div>
                                 <div className="holder" style={{ border: '2px groove darkblue', padding: '10px' }}>
-                                    <marquee direction="up" scrollamount="1" scrolldelay="10" onmouseover="this.stop();"
-                                        onmouseout="this.start();" style={{ height: '250px' }}>
+                                    <marquee direction="up" scrollamount="1" scrolldelay="10" style={{ height: '250px' }}>
                                         <ul>
+                                            {noticeData.map((e,i) => {
+                                                return (
+                                                    <li key={i}>
+                                                        <a href="">{e.ncname}</a>
+                                                    </li>
+                                                )
+                                            })}
                                             <li>
                                                 <a href="#">Notice - Examination Notice</a>
                                             </li>
@@ -213,16 +251,16 @@ function Home() {
                         <div className="col-lg-4 col-md-6 col-12 pb-lg-0 pb-3">
                             <div className="blogs">
                                 <div className="blog-img">
-                                    <a href="primary-wing.html" target="_blank">
+                                    <Link to={'/primary-wing'} target="_blank">
                                         <img src={infra1} className="img-fluid w-100" alt="" />
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="blog-content">
                                     <p>
                                         <Link to={'/primary-wing'} target="_blank"> PRIMARY BLOCK</Link>
                                     </p>
                                     <p className="mt-0" style={{ color: 'green', fontSize: '18px', fontWeight: '600' }}>
-                                        <Link to={'/primary-wing'}>CLASS NURSERY, KG, PREP, I-III</Link>
+                                        <Link to={'/primary-wing'} target="_blank">CLASS NURSERY, KG, PREP, I-III</Link>
                                     </p>
                                 </div>
                             </div>
@@ -230,16 +268,16 @@ function Home() {
                         <div className="col-lg-4 col-md-6 col-12 pb-lg-0 pb-3">
                             <div className="blogs">
                                 <div className="blog-img">
-                                    <a href="middle-wing.html" target="_blank">
+                                    <Link to={'/middle-wing'} target="_blank">
                                         <img src={infra2} className="img-fluid w-100" alt="" />
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="blog-content">
                                     <p>
                                         <Link to={'/middle-wing'} target="_blank">MIDDLE BLOCK</Link>
                                     </p>
                                     <p className="mt-0" style={{ color: 'green', fontSize: '18px', fontWeight: '600' }}>
-                                        <Link to={'/middle-wing'}>CLASSES IV-VIII</Link>
+                                        <Link to={'/middle-wing'} target="_blank">CLASSES IV-VIII</Link>
                                     </p>
                                 </div>
                             </div>
@@ -247,16 +285,16 @@ function Home() {
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="blogs">
                                 <div className="blog-img">
-                                    <a href="senior-wing.html" target="_blank">
+                                    <Link to={'/senior-wing'} target="_blank">
                                         <img src={infra3} className="img-fluid w-100" alt="" />
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="blog-content">
                                     <p>
                                         <Link to={'/senior-wing'} target="_blank">SENIOR BLOCK</Link>
                                     </p>
                                     <p className="mt-0" style={{ color: 'green', fontSize: '18px', fontWeight: '600' }}>
-                                        <Link to={'/senior-wing'}>CLASSES IX-XII</Link>
+                                        <Link to={'/senior-wing'} target="_blank">CLASSES IX-XII</Link>
                                     </p>
                                 </div>
                             </div>
@@ -275,7 +313,7 @@ function Home() {
                                 <div className="item">
                                     <div className="events">
                                         <div className="event-img">
-                                            <a href="primary-wing.html" target="_blank">
+                                            <a href="primary-wing.html">
                                                 <img src={event1} className="img-fluid w-100" alt="" />
                                             </a>
                                             <div className="event-date-wrap">
@@ -285,7 +323,7 @@ function Home() {
                                         </div>
                                         <div className="event-content">
                                             <h3>
-                                                <a href="primary-wing.html" target="_blank">REPUBLIC DAY 2023 CELERATION</a>
+                                                <a href="primary-wing.html">REPUBLIC DAY 2023 CELERATION</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -293,7 +331,7 @@ function Home() {
                                 <div className="item">
                                     <div className="events">
                                         <div className="event-img">
-                                            <a href="primary-wing.html" target="_blank">
+                                            <a href="primary-wing.html">
                                                 <img src={event1} className="img-fluid w-100" alt="" />
                                             </a>
                                             <div className="event-date-wrap">
@@ -303,7 +341,7 @@ function Home() {
                                         </div>
                                         <div className="event-content">
                                             <h3>
-                                                <a href="primary-wing.html" target="_blank">REPUBLIC DAY 2023 CELERATION</a>
+                                                <a href="primary-wing.html">REPUBLIC DAY 2023 CELERATION</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -311,7 +349,7 @@ function Home() {
                                 <div className="item">
                                     <div className="events">
                                         <div className="event-img">
-                                            <a href="primary-wing.html" target="_blank">
+                                            <a href="primary-wing.html">
                                                 <img src={event1} className="img-fluid w-100" alt="" />
                                             </a>
                                             <div className="event-date-wrap">
@@ -321,7 +359,7 @@ function Home() {
                                         </div>
                                         <div className="event-content">
                                             <h3>
-                                                <a href="primary-wing.html" target="_blank">REPUBLIC DAY 2023 CELERATION</a>
+                                                <a href="primary-wing.html">REPUBLIC DAY 2023 CELERATION</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -329,7 +367,7 @@ function Home() {
                                 <div className="item">
                                     <div className="events">
                                         <div className="event-img">
-                                            <a href="primary-wing.html" target="_blank">
+                                            <a href="primary-wing.html">
                                                 <img src={event1} className="img-fluid w-100" alt="" />
                                             </a>
                                             <div className="event-date-wrap">
@@ -339,7 +377,7 @@ function Home() {
                                         </div>
                                         <div className="event-content">
                                             <h3>
-                                                <a href="primary-wing.html" target="_blank">REPUBLIC DAY 2023 CELERATION</a>
+                                                <a href="primary-wing.html">REPUBLIC DAY 2023 CELERATION</a>
                                             </h3>
                                         </div>
                                     </div>
@@ -352,48 +390,48 @@ function Home() {
 
             {/* Achievement Section */}
             <section>
-                <div class="container-fluid pt-5">
-                    <div class="container">
-                        <div class="row m-auto">
-                            <div class="col-lg-3 col-md-6 col-6">
-                                <div class="counter counter-one">
-                                    <div class="counter-img">
+                <div className="container-fluid pt-5">
+                    <div className="container text-center">
+                        <div className="row m-auto">
+                            <div className="col-lg-3 col-md-6 col-12 pb-lg-0 pb-md-5 pb-0">
+                                <div className="counter counter-one">
+                                    <div className="counter-img">
                                         <img src={achieve1} alt="" />
                                     </div>
-                                    <div class="counter-content">
+                                    <div className="counter-content">
                                         <h2>4.5K +</h2>
                                         <span>STUDENTS</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-6">
-                                <div class="counter-two counter">
-                                    <div class="counter-img">
+                            <div className="col-lg-3 col-md-6 col-12">
+                                <div className="counter-two counter">
+                                    <div className="counter-img">
                                         <img src={achieve2} alt="" />
                                     </div>
-                                    <div class="counter-content">
+                                    <div className="counter-content">
                                         <h2><NumberCounter end={175} className="increment" /></h2>
                                         <span>TEACHERS</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-6">
-                                <div class="counter-three counter">
-                                    <div class="counter-img">
+                            <div className="col-lg-3 col-md-6 col-12">
+                                <div className="counter-three counter">
+                                    <div className="counter-img">
                                         <img src={achieve3} alt="" />
                                     </div>
-                                    <div class="counter-content">
+                                    <div className="counter-content">
                                         <h2>1K +</h2>
                                         <span>AWARDS</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-6">
-                                <div class="counter-four counter">
-                                    <div class="counter-img">
+                            <div className="col-lg-3 col-md-6 col-12">
+                                <div className="counter-four counter">
+                                    <div className="counter-img">
                                         <img src={achieve4} alt="" />
                                     </div>
-                                    <div class="counter-content">
+                                    <div className="counter-content">
                                         <h2><NumberCounter end={120} className="increment" /></h2>
                                         <span>SMART CLASSES</span>
                                     </div>
@@ -406,23 +444,23 @@ function Home() {
 
             {/* Explore Us Section */}
             <section>
-                <div class="container explore-us">
-                    <div class="row pt-5">
-                        <div class="col-lg-6 col-12">
-                            <div class="dps-location pb-3">
+                <div className="container explore-us">
+                    <div className="row pt-5">
+                        <div className="col-lg-6 col-12">
+                            <div className="dps-location pb-3">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.1819385428707!2d72.96465817510106!3d26.22327727706479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394189384a6aab61%3A0x65574cfc6e1f07a8!2sDPS%20Jodhpur!5e0!3m2!1sen!2sin!4v1684765372029!5m2!1sen!2sin"
-                                    width="100%" height="450" style={{border:'0'}} allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
+                                    width="100%" height="450" style={{ border: '0' }} allowFullScreen="" loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade">
                                 </iframe>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-12">
-                            <div class="dps-videos pb-3">
+                        <div className="col-lg-6 col-12">
+                            <div className="dps-videos pb-3">
                                 <iframe width="100%" height="450" src="https://www.youtube.com/embed/eJG1noHnV-4"
-                                    title="YouTube video player" frameborder="0"
+                                    title="YouTube video player" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen>
+                                    allowFullScreen>
                                 </iframe>
                             </div>
                         </div>
@@ -430,7 +468,7 @@ function Home() {
                 </div>
             </section>
 
-            <Footer/>
+            <Footer />
         </>
     )
 }

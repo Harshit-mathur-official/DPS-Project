@@ -11,21 +11,21 @@ function FeeStructure() {
 
             {/*  */}
             <section>
-                <div class="container fee-structure mx-auto">
-                    <div class="row">
-                        <div class="col-12 pt-4 text-center">
+                <div className="container fee-structure mx-auto">
+                    <div className="row">
+                        <div className="col-12 pt-4 text-center">
                             <div>
                                 <h3>Fee structure for Day Scholar<br />
                                     Session 2023 - 2024
                                 </h3>
-                                <h6 class="pb-5">
+                                <h6 className="pb-5">
                                     REGISTRATION CHARGES (at the time of submission of registration form) :
                                     <span style={{fontWeight:'700'}}>Rs. 3000/- (Non Refundable)</span>
                                 </h6>
                             </div>
                         </div>
-                        <div class="col-lg-10 text-center" style={{margin:'auto'}}>
-                            <table align="center" class="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'15px'}}>
+                        <div className="col-lg-10 text-center" style={{margin:'auto'}}>
+                            <table align="center" className="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'15px'}}>
                                 <thead>
                                     <tr>
                                         <th colSpan={3}>
@@ -58,8 +58,8 @@ function FeeStructure() {
                                 </tbody>
                             </table>
                         </div>
-                        <div class="col-lg-10 pt-5 text-center" style={{margin:'auto'}}>
-                            <table align="center" class="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'15px'}}>
+                        <div className="col-lg-10 pt-5 text-center" style={{margin:'auto'}}>
+                            <table align="center" className="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'15px'}}>
                                 <thead>
                                     <tr>
                                         <th colSpan={3}>
@@ -97,18 +97,18 @@ function FeeStructure() {
                             </table>
                         </div>
 
-                        <div class="col-lg-12 pt-5">
-                            <div class="mx-lg-5">
-                                <h4 class="text-center">PAYMENT SCHEDULE</h4>
-                                <ul class="mx-lg-5">
+                        <div className="col-lg-12 pt-5">
+                            <div className="mx-lg-5">
+                                <h4 className="text-center">PAYMENT SCHEDULE</h4>
+                                <ul className="mx-lg-5">
                                     <li>Amount mentioned in <strong>Point A</strong> is payable at the time of Admission only.
                                     </li>
                                     <li>Amount mentioned in <strong>Point B</strong> is payable as following-</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-10 pt-5 text-center" style={{margin:'auto'}}>
-                            <table align="center" class="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'13.5px'}}>
+                        <div className="col-lg-10 pt-5 text-center" style={{margin:'auto'}}>
+                            <table align="center" className="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'13.5px'}}>
                                 <thead>
                                     <tr>
                                         <th rowSpan={3}>CLASS</th>
@@ -173,14 +173,14 @@ function FeeStructure() {
                             </table>
                         </div>
 
-                        <div class="col-lg-12 pt-3 payment-note">
-                            <div class="mx-lg-5 pt-2">
-                                <p class="mx-lg-5"><span>Note:</span> <i><u>Students of Class XI & XII who take practical
+                        <div className="col-lg-12 pt-3 payment-note">
+                            <div className="mx-lg-5 pt-2">
+                                <p className="mx-lg-5"><span>Note:</span> <i><u>Students of Class XI & XII who take practical
                                     subject(s) will pay Rs. 1000/- an additional fee for each practical subject. This
                                     fee is payble with first installment of the session or at the time of
                                     admission.</u></i></p>
-                                <div class="mx-lg-5">
-                                    <ul class="mx-lg-4">
+                                <div className="mx-lg-5">
+                                    <ul className="mx-lg-4">
                                         <li>Local Cheque/DD (A/c Payee Only) should be drawn in favour of <span>"Delhi Public
                                             School Jodhpur".</span></li>
                                         <li>Full fee for the session is also accepted.</li>
@@ -192,20 +192,20 @@ function FeeStructure() {
                             </div>
                         </div>
 
-                        <div class="col-12 pt-4 text-center">
+                        <div className="col-12 pt-4 text-center">
                             <div>
                                 <h3>Fee structure for Day Hostellers<br />
                                     Session 2023 - 2024
                                 </h3>
-                                <h6 class="pb-5">
+                                <h6 className="pb-5">
                                     REGISTRATION CHARGES (at the time of submission of registration form) :
                                     <span style={{fontWeight:'700'}}>Rs. 3500/- (Non Refundable)</span>
                                 </h6>
                             </div>
                         </div>
 
-                        <div class="col-lg-10 text-center" style={{margin:'auto'}}>
-                            <table align="center" class="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'15px'}}>
+                        <div className="col-lg-10 text-center" style={{margin:'auto'}}>
+                            <table align="center" className="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'15px'}}>
                                 <thead>
                                     <tr>
                                         <th colSpan={3}>
@@ -239,8 +239,8 @@ function FeeStructure() {
                             </table>
                         </div>
 
-                        <div class="col-lg-10 text-center mt-4" style={{margin:'auto'}}>
-                            <table align="center" class="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'15px'}}>
+                        <div className="col-lg-10 text-center mt-4" style={{margin:'auto'}}>
+                            <table align="center" className="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'15px'}}>
                                 <thead>
                                     <tr>
                                         <th colSpan={3}>
@@ -263,8 +263,8 @@ function FeeStructure() {
                             </table>
                         </div>
 
-                        <div class="col-lg-10 text-center mt-4" style={{margin:'auto'}}>
-                            <table align="center" class="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'14px'}}>
+                        <div className="col-lg-10 text-center mt-4" style={{margin:'auto'}}>
+                            <table align="center" className="table table-striped table-bordered table-hover table-condensed" style={{width:'80%', margin:'auto', fontSize:'14px'}}>
                                 <thead>
                                     <tr>
                                         <th colSpan={5}>
@@ -306,14 +306,14 @@ function FeeStructure() {
                             </table>
                         </div>
 
-                        <div class="col-lg-12 pt-3 payment-note">
-                            <div class="mx-lg-5 pt-2">
-                                <p class="mx-lg-5"><span>Note:</span> <i><u>Students of Class XI & XII who take practical
+                        <div className="col-lg-12 pt-3 payment-note">
+                            <div className="mx-lg-5 pt-2">
+                                <p className="mx-lg-5"><span>Note:</span> <i><u>Students of Class XI & XII who take practical
                                     subject(s) will pay Rs. 1000/- an additional fee for each practical subject. This
                                     fee is payble with first installment of the session or at the time of
                                     admission.</u></i></p>
-                                <div class="mx-lg-5">
-                                    <ul class="mx-lg-4">
+                                <div className="mx-lg-5">
+                                    <ul className="mx-lg-4">
                                         <li>Caution Money is refundable at the time of leaving the School.</li>
                                         <li>Imprest money will be used for students personal expenses during the session.</li>
                                         <li>Fee can be deposited online through our website also. <a href="">Online Fee Payment
@@ -323,12 +323,12 @@ function FeeStructure() {
                             </div>
                         </div>
 
-                        <div class="col-lg-12">
+                        <div className="col-lg-12">
                             <center>
-                                <button type="button" class="px-2 my-4" style={{fontWeight:'bold'}}>RULES FOR MODE OF FEE
+                                <button type="button" className="px-2 my-4" style={{fontWeight:'bold'}}>RULES FOR MODE OF FEE
                                     PAYMENT</button>
                             </center>
-                            <div class="rules-for-payment">
+                            <div className="rules-for-payment">
                                 <ol>
                                     <li>Fee is payable for the full year in 3 installments using Net-banking/Debit Card or
                                         Credit Card through our school website dpsjodhpur.in or Cheque / DD in favour of 'Delhi

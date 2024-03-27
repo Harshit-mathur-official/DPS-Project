@@ -6,23 +6,60 @@ import { faEnvelope, faHouse, faLocationDot, faPhone, faSignIn } from '@fortawes
 import { faCircleQuestion } from '@fortawesome/free-regular-svg-icons';
 import { faFacebookF, faSquareXTwitter, faTwitter, faWhatsapp, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+import axios from 'axios'
+import { useState } from 'react';
 function Header() {
+    const data = { ename: "", email: "", emobile: "", ecomment: "", efile: "" };
+    const [inputData, setInputdata] = useState(data);
+
+    const handleData = (e) => {
+        setInputdata({ ...inputData, [e.target.name]: e.target.value })
+    }
+
+    const handleSubmit = (e) => {
+        // setInputdata(
+        //     { ename: "", email: "", emobile: "", ecomment: "", efile: "" }
+        // )
+        e.preventDefault();
+        axios.post("http://localhost:5000/api/enquiry/add", inputData)
+            .then(function (response) {
+                console.log(response)
+            })
+            .catch(error => {
+                if (error.response) {
+                    // The request was made and the server responded with a status code
+                    // that falls out of the range of 2xx
+                    console.log(error.response.data); // Log the response data
+                    console.log(error.response.status); // Log the status code
+                    console.log(error.response.headers); // Log the response headers
+                } else if (error.request) {
+                    // The request was made but no response was received
+                    console.log(error.request);
+                } else {
+                    // Something happened in setting up the request that triggered an Error
+                    console.log('Error', error.message);
+                }
+                console.log(error.config);
+            })
+    }
+
+
     const sendMessage = () => {
         const phoneNumber = '7737880141';
         const message = encodeURIComponent('Hello!');
-        
+
         // Construct the WhatsApp API URL
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-    
+
         // Open the WhatsApp URL in a new window
         window.open(whatsappUrl);
-      };
+    };
 
     return (
         <>
             {/* Model Section */}
             <section>
-                <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1"
                     aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div className="modal-dialog">
                         <div className="modal-content">
@@ -40,25 +77,25 @@ function Header() {
                                             <h2 className="text-center fs-4">Send your query</h2>
                                             <form method="post">
                                                 <div>
-                                                    <input type="text" name='name' className="form-control" placeholder="Your Name *" required />
+                                                    <input type="text" name='ename' value={inputData.ename} className="form-control" placeholder="Your Name *" required onChange={handleData} />
                                                 </div>
                                                 <div>
-                                                    <input type="text" className="form-control" placeholder="Your Email *" required />
+                                                    <input type="text" name='email' value={inputData.email} className="form-control" placeholder="Your Email *" required onChange={handleData} />
                                                 </div>
                                                 <div>
-                                                    <input type="tel" className="form-control " title="Please Enter 10 Digit Number"
+                                                    <input type="tel" name='emobile' value={inputData.emobile} className="form-control " title="Please Enter 10 Digit Number"
                                                         placeholder="Mobile Number*" pattern="[1-9]{1}[0-9]{9}"
-                                                        required="required" />
+                                                        required="required" onChange={handleData} />
                                                 </div>
                                                 <div>
-                                                    <textarea className="w-100 form-control" rows="4" placeholder="Comment*"
-                                                        required="required"></textarea>
+                                                    <textarea className="w-100 form-control" name='ecomment' value={inputData.ecomment} rows="4" placeholder="Comment*"
+                                                        required="required" onChange={handleData}></textarea>
                                                 </div>
                                                 <div>
-                                                    <input type="file" className="form-control" placeholder="Attach File" />
+                                                    <input type="file" name='efile' value={inputData.efile} className="form-control" placeholder="Attach File" onChange={handleData} />
                                                 </div>
                                                 <div className="mx-auto mt-3 text-center">
-                                                    <button type="submit" className="btn btn-outline-dark">Submit</button>
+                                                    <button type="submit" className="btn btn-outline-dark" onClick={handleSubmit}>Submit</button>
                                                 </div>
                                             </form>
                                         </div>
@@ -96,17 +133,15 @@ function Header() {
                 <div className="container-fluid marquees sticky-top">
                     <div className="row">
                         <div className="col-12">
-                            <marquee width="100%" direction="alternate" behavior="alternate" scrollamount="4" scrolldelay="0"
-                                onmouseover="this.stop();" onmouseout="this.start();">
-                                <a href="" onclick="openNews('919')">
+                            <marquee width="100%" direction="alternate" behavior="alternate" scrollamount="4" scrolldelay="0">
+                                <a href="">
                                     <b>ClassNclassName XI Admission Process (Session 2023-24)</b>
                                 </a>
                                 <span style={{ color: 'yellow' }}> &nbsp;&nbsp;.:::.&nbsp;&nbsp; </span>
-                                <a href="" onclick="openNews('919')">
+                                <a href="">
                                     <b>Our Star Achievers of ClassNclassName XII</b>
                                 </a>
-                                <span style={{ color: 'yellow' }}> &nbsp;&nbsp;.:::.&nbsp;&nbsp; </span> <a href=""
-                                    onclick="openNews('919')">
+                                <span style={{ color: 'yellow' }}> &nbsp;&nbsp;.:::.&nbsp;&nbsp; </span> <a href="">
                                     <b>Summer Break Schedule</b>
                                 </a>
                             </marquee>
@@ -185,7 +220,7 @@ function Header() {
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         About us
                                     </Link>
-                                    <ul className="dropdown-menu" style={{ position: 'absolute', left: '-100px' }}>
+                                    <ul className="dropdown-menu" style={{ position: 'absolute', left: '-87px' }}>
                                         <div className="container">
                                             <div className="row" style={{ width: '800px' }}>
                                                 <div className="col-lg-4 py-3">
@@ -282,15 +317,15 @@ function Header() {
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         contact
                                     </Link>
-                                    <ul className="dropdown-menu" style={{ position: 'absolute', left: '-703px' }}>
+                                    <ul className="dropdown-menu" style={{ position: 'absolute', left: '-707px' }}>
                                         <div className="container">
                                             <div className="row" style={{ width: '800px' }}>
                                                 <div className="col-lg-4 py-3">
                                                     <h3 style={{ fontSize: '18px' }}>FIND US ON GOOGLE MAP</h3>
                                                     <iframe
                                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.1819385428707!2d72.96465817510106!3d26.22327727706479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394189384a6aab61%3A0x65574cfc6e1f07a8!2sDPS%20Jodhpur!5e0!3m2!1sen!2sin!4v1684765372029!5m2!1sen!2sin"
-                                                        width="100%" height="250" style={{ border: '0' }} allowfullscreen=""
-                                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        width="100%" height="250" style={{ border: '0' }} allowFullScreen=""
+                                                        loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                                 </div>
                                                 <div className="contact-details col-lg-4 py-3">
                                                     <h3 style={{ fontSize: '18px' }}>CONTACT DETAILS</h3><br />
@@ -312,7 +347,7 @@ function Header() {
                                                     </div>
                                                     <div className="text-start me-2">
                                                         <a href="contact-us.html" data-bs-toggle="modal" data-bs-target="#staticBackdrop" className="">
-                                                            <button type="button"
+                                                            <button type="button" onClick={handleSubmit}
                                                                 style={{ backgroundColor: 'red', color: '#fff', border: 'none', fontSize: '15px', padding: '8px 40px' }}>ENQUIRY
                                                             </button>
                                                         </a>
@@ -326,7 +361,7 @@ function Header() {
                         </div>
                     </nav>
 
-                    <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasRight"
                         aria-labelledby="offcanvasRightLabel">
                         <div className="offcanvas-header">
                             <h5 className="offcanvas-title" id="offcanvasRightLabel">
@@ -435,8 +470,8 @@ function Header() {
                                                     <h3 style={{ fontSize: '18px' }}>FIND US ON GOOGLE MAP</h3>
                                                     <iframe
                                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.1819385428707!2d72.96465817510106!3d26.22327727706479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394189384a6aab61%3A0x65574cfc6e1f07a8!2sDPS%20Jodhpur!5e0!3m2!1sen!2sin!4v1684765372029!5m2!1sen!2sin"
-                                                        width="100%" height="250" style={{ border: '0' }} allowfullscreen=""
-                                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        width="100%" height="250" style={{ border: '0' }} allowFullScreen=""
+                                                        loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                                 </div>
                                                 <div className="contact-details col-lg-4 py-3">
                                                     <h3 style={{ fontSize: '18px' }}>CONTACT DETAILS</h3><br />
@@ -458,7 +493,7 @@ function Header() {
                                                     </div>
                                                     <div className="text-start me-2">
                                                         <a href="contact-us.html" data-bs-toggle="modal" data-bs-target="#staticBackdrop" className="">
-                                                            <button type="button"
+                                                            <button type="button" onClick={handleSubmit}
                                                                 style={{ backgroundColor: 'red', color: '#fff', border: 'none', fontSize: '15px', padding: '8px 40px' }}>ENQUIRY
                                                             </button>
                                                         </a>
@@ -468,30 +503,30 @@ function Header() {
                                         </div>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link fw-bolder" href="tel:02912766886">
+                                <li className="nav-item">
+                                    <a className="nav-link fw-bolder" href="tel:02912766886">
                                         <FontAwesomeIcon icon={faPhone} className='pe-2' />0291-2766886/887, 2946886/887
                                     </a>
                                 </li>
-                                <li class="nav-item p-0">
-                                    <a class="nav-link fw-bolder" href="mailto:info@dpsjodhpur.in">
+                                <li className="nav-item p-0">
+                                    <a className="nav-link fw-bolder" href="mailto:info@dpsjodhpur.in">
                                         <FontAwesomeIcon icon={faEnvelope} className='pe-2' />info@dpsjodhpur.in
                                     </a>
                                 </li>
-                                <li class="nav-item fw-bolder">
+                                <li className="nav-item fw-bolder">
                                     <FontAwesomeIcon icon={faCircleQuestion} className='pe-2' />
                                     <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style={{ textDecoration: 'none', color: '#002100' }}>Enquiry</a>
                                 </li>
-                                <li class="nav-item mt-2">
+                                <li className="nav-item mt-2">
                                     <button type="button" style={{ border: '0', backgroundColor: '#002147' }}>
-                                        <a class="nav-link fw-bolder" href="https://www.dpsjodhpur.in/DPSJodhpur/UserSpace/UserName/admin/DynamicFolder/2020-21/News/Bank_Link_Page.html"
+                                        <a className="nav-link fw-bolder" href="https://www.dpsjodhpur.in/DPSJodhpur/UserSpace/UserName/admin/DynamicFolder/2020-21/News/Bank_Link_Page.html"
                                             target="_blank" style={{ color: '#fff', padding: '10px', fontSize: '14px' }} >PAY FEE</a>
                                     </button>
                                 </li>
-                                <li class="nav-item my-2">
+                                <li className="nav-item my-2">
                                     <button type="button" style={{ border: '0', backgroundColor: '#002147', padding: '10px' }}>
-                                        <a class="fw-bolder" href="#" style={{ color: 'yellow', fontSize: '14px', textDecoration: 'none' }} >ERP LOGIN
-                                            <i class="fa fa-sign-in" aria-hidden="true" style={{ color: 'yellow', fontSize: '16px' }}></i>
+                                        <a className="fw-bolder" href="#" style={{ color: 'yellow', fontSize: '14px', textDecoration: 'none' }} >ERP LOGIN
+                                            <i className="fa fa-sign-in" aria-hidden="true" style={{ color: 'yellow', fontSize: '16px' }}></i>
                                         </a>
                                     </button>
                                 </li>

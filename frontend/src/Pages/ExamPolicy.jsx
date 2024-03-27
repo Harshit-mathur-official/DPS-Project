@@ -12,8 +12,8 @@ function ExamPolicy() {
                         <div className="col-12">
 
                         </div>
-                        <div class="col-lg-10 " style={{ margin: 'auto' }}>
-                            <table align="center" class="table table-bordered table-hover table-condensed" style={{ width: '100%', margin: 'auto' }}>
+                        <div className="col-lg-10 " style={{ margin: 'auto' }}>
+                            <table align="center" className="table table-bordered table-hover table-condensed" style={{ width: '100%', margin: 'auto' }}>
                                 <thead className="text-center">
                                     <tr>
                                         <th colSpan={2}>

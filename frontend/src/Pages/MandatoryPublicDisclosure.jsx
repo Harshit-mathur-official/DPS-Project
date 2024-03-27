@@ -8,15 +8,15 @@ function MandatoryPublicDisclosure() {
 
             {/*  */}
             <section>
-                <div class="container-fluid my-3 mpd">
-                    <h2 class="page-heading">Mandatory Public Disclosure</h2>
-                    <div class="container">
-                        <div class="col-lg-12">
-                            <div class="py-5">
+                <div className="container-fluid my-3 mpd">
+                    <h2 className="page-heading">Mandatory Public Disclosure</h2>
+                    <div className="container">
+                        <div className="col-lg-12">
+                            <div className="py-5">
                                 <h3>A. GENERAL INFORMATION</h3>
-                                <table align="center" class="table table-striped table-bordered table-hover nowrap">
+                                <table align="center" className="table table-striped table-bordered table-hover nowrap">
                                     <thead style={{backgroundColor:'maroon', color:'white'}}>
-                                        <tr class="success">
+                                        <tr className="success">
                                             <th>S.NO.</th>
                                             <th>INFORMATION</th>
                                             <th>DETAILS</th>
@@ -72,9 +72,9 @@ function MandatoryPublicDisclosure() {
                             </div>
                         </div>
 
-                        <div class="col-12 pb-5">
+                        <div className="col-12 pb-5">
                             <h3>B. DOCUMENTS AND INFORMATION</h3>
-                            <table align="center" class="table table-striped table-bordered table-hover nowrap">
+                            <table align="center" className="table table-striped table-bordered table-hover nowrap">
                                 <thead style={{backgroundColor:'maroon', color:'white'}}>
                                     <tr>
                                         <th style={{textAlign:'center'}}>S.NO.</th>
@@ -169,9 +169,9 @@ function MandatoryPublicDisclosure() {
                         </div>
 
 
-                        <div class="col-12 pb-5">
+                        <div className="col-12 pb-5">
                             <h3>C. RESULTS AND ACADEMICS</h3>
-                            <table align="center" class="table table-striped table-bordered table-hover nowrap">
+                            <table align="center" className="table table-striped table-bordered table-hover nowrap">
                                 <thead style={{backgroundColor:'maroon', color:'white'}}>
                                     <tr>
                                         <th style={{textAlign:'center'}}>S.NO.</th>
@@ -225,9 +225,9 @@ function MandatoryPublicDisclosure() {
                             </table>
                         </div>
 
-                        <div class="pb-5">
+                        <div className="pb-5">
                             <h3>RESULT - CLASS X</h3>
-                            <table align="center" class="table table-striped table-bordered table-hover nowrap">
+                            <table align="center" className="table table-striped table-bordered table-hover nowrap">
                                 <thead style={{backgroundColor:'maroon', color:'white'}}>
                                     <tr>
                                         <th style={{textAlign:'center'}}>S.NO.</th>
@@ -263,9 +263,9 @@ function MandatoryPublicDisclosure() {
                             </table>
                         </div>
 
-                        <div class="col-12 pb-5">
+                        <div className="col-12 pb-5">
                             <h3>RESULT - CLASS XII</h3>
-                            <table align="center" class="table table-striped table-bordered table-hover nowrap">
+                            <table align="center" className="table table-striped table-bordered table-hover nowrap">
                                 <thead style={{backgroundColor:'maroon', color:'white'}}>
                                     <tr>
                                         <th style={{textAlign:'center'}}>S.NO.</th>
@@ -301,9 +301,9 @@ function MandatoryPublicDisclosure() {
                             </table>
                         </div>
 
-                        <div class="col-12 pb-5">
+                        <div className="col-12 pb-5">
                             <h3>D. STAFF (TEACHING)</h3>
-                            <table align="center" class="table table-striped table-bordered table-hover nowrap">
+                            <table align="center" className="table table-striped table-bordered table-hover nowrap">
                                 <thead style={{backgroundColor:'maroon', color:'white'}}>
                                     <tr>
                                         <th style={{textAlign:'center'}}>S.NO.</th>
@@ -366,9 +366,9 @@ function MandatoryPublicDisclosure() {
                             </table>
                         </div>
 
-                        <div class="col-12 pb-5">
+                        <div className="col-12 pb-5">
                             <h3>E. SCHOOL INFRASTRUCTURE</h3>
-                            <table align="center" class="table table-striped table-bordered table-hover nowrap">
+                            <table align="center" className="table table-striped table-bordered table-hover nowrap">
                                 <thead style={{backgroundColor:'maroon', color:'white'}}>
                                     <tr>
                                         <th style={{textAlign:'center'}}>S.NO.</th>
@@ -433,9 +433,9 @@ function MandatoryPublicDisclosure() {
                             </table>
                         </div>
 
-                        <div class="col-12">
+                        <div className="col-12">
                             <h3>SCHOOL MANAGING COMMITTEE</h3>
-                            <table align="center" class="table table-striped table-bordered table-hover nowrap">
+                            <table align="center" className="table table-striped table-bordered table-hover nowrap">
                                 <thead style={{backgroundColor:'maroon', color:'white'}}>
                                     <tr>
                                         <th style={{textAlign:'center'}}>NAME</th>

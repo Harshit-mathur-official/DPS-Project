@@ -177,90 +177,90 @@ function Faculty() {
             <Header />
 
             <section>
-                <div class="container fraternity py-5">
-                    <div class="row" style={{ textAlign: 'center' }}>
-                        <div class="col-12">
+                <div className="container fraternity py-5">
+                    <div className="row" style={{ textAlign: 'center' }}>
+                        <div className="col-12">
                             <h2>THE FRATERNITY OF DPS JODHPUR</h2>
                         </div>
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-2 col-6">
-                            <div class="py-3">
-                                <img src={pro_vice_chairman} class="img-fluid" alt="" />
-                                <h6 class="pt-2 teacher-name">DINESH C. KOTHARI</h6>
+                        <div className="col-lg-4"></div>
+                        <div className="col-lg-2 col-6">
+                            <div className="py-3">
+                                <img src={pro_vice_chairman} className="img-fluid" alt="" />
+                                <h6 className="pt-2 teacher-name">DINESH C. KOTHARI</h6>
                                 <h6>Pro Vice Chairman</h6>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-6">
-                            <div class="py-3">
-                                <img src={Principal} class="img-fluid" alt="" />
-                                <h6 class="pt-2 teacher-name">BIKRAM SINGH YADAV</h6>
+                        <div className="col-lg-2 col-6">
+                            <div className="py-3">
+                                <img src={Principal} className="img-fluid" alt="" />
+                                <h6 className="pt-2 teacher-name">BIKRAM SINGH YADAV</h6>
                                 <h6>Director & Principal</h6>
                             </div>
                         </div>
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-2 col-md-3">
-                            <div class="py-3">
-                                <img src={Vice_Principal} class="img-fluid" alt="" />
-                                <h6 class="pt-2 teacher-name">ABHILASHA SHAW</h6>
+                        <div className="col-lg-4"></div>
+                        <div className="col-lg-2"></div>
+                        <div className="col-lg-2 col-md-3">
+                            <div className="py-3">
+                                <img src={Vice_Principal} className="img-fluid" alt="" />
+                                <h6 className="pt-2 teacher-name">ABHILASHA SHAW</h6>
                                 <h6>Vice Principal</h6>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3">
-                            <div class="py-3">
-                                <img src={Headmistress_Senior} class="img-fluid" alt="" />
-                                <h6 class="pt-2 teacher-name">SANGEETA YADAV</h6>
+                        <div className="col-lg-2 col-md-3">
+                            <div className="py-3">
+                                <img src={Headmistress_Senior} className="img-fluid" alt="" />
+                                <h6 className="pt-2 teacher-name">SANGEETA YADAV</h6>
                                 <h6>Senior Headmistress<br />
                                     (Senior Wing)</h6>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3">
-                            <div class="py-3">
-                                <img src={Headmistress_Middle} class="img-fluid" alt="" />
-                                <h6 class="pt-2 teacher-name">KAAJAL KANWAR BHATI</h6>
+                        <div className="col-lg-2 col-md-3">
+                            <div className="py-3">
+                                <img src={Headmistress_Middle} className="img-fluid" alt="" />
+                                <h6 className="pt-2 teacher-name">KAAJAL KANWAR BHATI</h6>
                                 <h6>Headmistress<br />
                                     (Middle Wing)</h6>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3">
-                            <div class="py-3">
-                                <img src={Headmistress_Primary} class="img-fluid" alt="" />
-                                <h6 class="pt-2 teacher-name">PALLAVI DAS</h6>
-                                <h6 class="">Headmistress<br />
+                        <div className="col-lg-2 col-md-3">
+                            <div className="py-3">
+                                <img src={Headmistress_Primary} className="img-fluid" alt="" />
+                                <h6 className="pt-2 teacher-name">PALLAVI DAS</h6>
+                                <h6 className="">Headmistress<br />
                                     (Primary Wing)</h6>
                             </div>
                         </div>
-                        <div class="col-lg-2"></div>
+                        <div className="col-lg-2"></div>
                     </div>
                 </div>
 
                 <section>
-                    <div class="container">
-                        <div class="row m-auto">
-                            <div class="col-12">
-                                <div class="teacher-wings-button text-center">
-                                    <ul class="nav justify-content-center" role="tablist">
+                    <div className="container">
+                        <div className="row m-auto">
+                            <div className="col-12">
+                                <div className="teacher-wings-button text-center">
+                                    <ul className="nav justify-content-center" role="tablist">
                                         <li>
-                                            <a class="nav-link active" data-bs-toggle="tab" href="#senior-wing" role="tab"
+                                            <a className="nav-link active" data-bs-toggle="tab" href="#senior-wing" role="tab"
                                                 aria-controls="senior-wing" aria-selected="true">Senior Wing</a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" data-bs-toggle="tab" href="#middle-wing" role="tab"
+                                            <a className="nav-link" data-bs-toggle="tab" href="#middle-wing" role="tab"
                                                 aria-controls="middle-wing" aria-selected="false">Middle Wing</a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" data-bs-toggle="tab" href="#junior-wing" role="tab"
+                                            <a className="nav-link" data-bs-toggle="tab" href="#junior-wing" role="tab"
                                                 aria-controls="junior-wing" aria-selected="false">Junior Wing</a>
                                         </li>
                                     </ul>
-                                    <div class="tab-content ps-lg-0 ps-3 my-5">
-                                        <div class="tab-pane fade show active" id="senior-wing" role="tabpanel">
-                                            <div class="container">
-                                                <div class="row justify-content-center m-auto">
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Abhishek_Parihar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ABHISHEK PARIHAR</h6>
+                                    <div className="tab-content ps-lg-0 ps-3 my-5">
+                                        <div className="tab-pane fade show active" id="senior-wing" role="tabpanel">
+                                            <div className="container">
+                                                <div className="row justify-content-center m-auto">
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Abhishek_Parihar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ABHISHEK PARIHAR</h6>
                                                             <h6>Physical Education</h6>
                                                             <p>
                                                                 <a href="mailto:abhishek@dpsjodhpur.in">
@@ -269,10 +269,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Akshat_Shrivastava} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">AKSHAT SHRIVASTAVA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Akshat_Shrivastava} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">AKSHAT SHRIVASTAVA</h6>
                                                             <h6>Physics</h6>
                                                             <p>
                                                                 <a href="mailto:akshat@dpsjodhpur.in">
@@ -281,10 +281,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Anil_Kumar_Soni} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ANIL KUMAR SONI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Anil_Kumar_Soni} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ANIL KUMAR SONI</h6>
                                                             <h6>Business Studies</h6>
                                                             <p>
                                                                 <a href="mailto:anil@dpsjodhpur.in">
@@ -293,10 +293,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Anirban_Nayak} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ANIRBAN NAYAK</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Anirban_Nayak} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ANIRBAN NAYAK</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:anirban@dpsjodhpur.in">
@@ -305,10 +305,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Charu_Shikha} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">CHARU SHIKHA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Charu_Shikha} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">CHARU SHIKHA</h6>
                                                             <h6>Economics</h6>
                                                             <p>
                                                                 <a href="mailto:charu@dpsjodhpur.in">
@@ -317,10 +317,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Dalpat_Singh_Rathore} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DALPAT SINGH RATHORE</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Dalpat_Singh_Rathore} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DALPAT SINGH RATHORE</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:dalpat@dpsjodhpur.in">
@@ -329,10 +329,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Darshan_Lal} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DARSHAN LAL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Darshan_Lal} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DARSHAN LAL</h6>
                                                             <h6>Physics</h6>
                                                             <p>
                                                                 <a href="mailto:darshan@dpsjodhpur.in">
@@ -341,10 +341,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Dheeraj_Mewara} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DHEERAJ MEWARA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Dheeraj_Mewara} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DHEERAJ MEWARA</h6>
                                                             <h6>Physics</h6>
                                                             <p>
                                                                 <a href="mailto:dheeraj@dpsjodhpur.in">
@@ -353,10 +353,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Dinesh_Yadav} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DINESH YADAV</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Dinesh_Yadav} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DINESH YADAV</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:dinesh@dpsjodhpur.in">
@@ -365,10 +365,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Garima_Rathore} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">GARIMA RATHORE</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Garima_Rathore} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">GARIMA RATHORE</h6>
                                                             <h6>Chemistry</h6>
                                                             <p>
                                                                 <a href="mailto:garima@dpsjodhpur.in">
@@ -377,10 +377,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Jairaj_Singh_Rathore} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">JAIRAJ SINGH RATHORE</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Jairaj_Singh_Rathore} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">JAIRAJ SINGH RATHORE</h6>
                                                             <h6>Art & Craft</h6>
                                                             <p>
                                                                 <a href="mailto:jairaj@dpsjodhpur.in">
@@ -389,10 +389,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Javed_Moyal} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">JAVED MOYAL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Javed_Moyal} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">JAVED MOYAL</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:javed@dpsjodhpur.in">
@@ -401,10 +401,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Joheb_Khan} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">JOHEB KHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Joheb_Khan} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">JOHEB KHAN</h6>
                                                             <h6>Geography</h6>
                                                             <p>
                                                                 <a href="mailto:joheb@dpsjodhpur.in">
@@ -413,10 +413,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Jyoti_Mathur} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">JYOTI MATHUR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Jyoti_Mathur} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">JYOTI MATHUR</h6>
                                                             <h6>Computer Science</h6>
                                                             <p>
                                                                 <a href="mailto:jyoti@dpsjodhpur.in">
@@ -425,10 +425,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Kanika_Vyas} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">KANIKA VYAS</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Kanika_Vyas} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">KANIKA VYAS</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:kanika@dpsjodhpur.in">
@@ -437,10 +437,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Kishore_Kumar_Parmar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">KISHOR KUMAR PARMAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Kishore_Kumar_Parmar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">KISHOR KUMAR PARMAR</h6>
                                                             <h6>Chemistry</h6>
                                                             <p>
                                                                 <a href="mailto:kishoreparmar@dpsjodhpur.in">
@@ -449,10 +449,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={L_M_Bhatt} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">LALIT M BHATT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={L_M_Bhatt} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">LALIT M BHATT</h6>
                                                             <h6>Library</h6>
                                                             <p>
                                                                 <a href="mailto:lalit@dpsjodhpur.in">
@@ -461,10 +461,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={L_S_Panwar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">LAXMAN SINGH PANWAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={L_S_Panwar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">LAXMAN SINGH PANWAR</h6>
                                                             <h6>Physical Education</h6>
                                                             <p>
                                                                 <a href="mailto:laxman@dpsjodhpur.in">
@@ -473,10 +473,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Maan_Singh} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MAAN SINGH</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Maan_Singh} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MAAN SINGH</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:maan@dpsjodhpur.in">
@@ -485,10 +485,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Manoj_Agarwal} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MANOJ AGARWAL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Manoj_Agarwal} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MANOJ AGARWAL</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:manoj@dpsjodhpur.in">
@@ -497,10 +497,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Mayank_Bohra} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MAYANK BOHRA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Mayank_Bohra} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MAYANK BOHRA</h6>
                                                             <h6>Biology</h6>
                                                             <p>
                                                                 <a href="mailto:mayank@dpsjodhpur.in">
@@ -509,10 +509,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Moin_Nawab_Khan} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MOIN NAWAB KHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Moin_Nawab_Khan} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MOIN NAWAB KHAN</h6>
                                                             <h6>Physical Education</h6>
                                                             <p>
                                                                 <a href="mailto:moin@dpsjodhpur.in">
@@ -521,10 +521,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Mudit_Mordia} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MUDIT MORDIA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Mudit_Mordia} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MUDIT MORDIA</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:mudit@dpsjodhpur.in">
@@ -533,10 +533,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Mukesh_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MUKESH SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Mukesh_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MUKESH SHARMA</h6>
                                                             <h6>Chemistry</h6>
                                                             <p>
                                                                 <a href="mailto:mukeshsharma@dpsjodhpur.in">
@@ -545,10 +545,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Neelam_Goyal} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NEELAM GOYAL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Neelam_Goyal} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NEELAM GOYAL</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:neelamgoyal@dpsjodhpur.in">
@@ -557,10 +557,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Neelima_Mehta} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NEELIMA MEHTA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Neelima_Mehta} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NEELIMA MEHTA</h6>
                                                             <h6>Business Studies</h6>
                                                             <p>
                                                                 <a href="mailto:neelima@dpsjodhpur.in">
@@ -569,10 +569,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Neeta_Soni} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NEETA SONI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Neeta_Soni} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NEETA SONI</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:neeta@dpsjodhpur.in">
@@ -581,10 +581,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Neha_Chouhan} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NEHA CHOUHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Neha_Chouhan} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NEHA CHOUHAN</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:nehac@dpsjodhpur.in">
@@ -593,10 +593,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Nidhi_Deepu} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NIDHI DEEPU</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Nidhi_Deepu} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NIDHI DEEPU</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:nidhideepu@dpsjodhpur.in">
@@ -605,10 +605,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Prabhakar_Bharti} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRABHAKAR BHARTI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Prabhakar_Bharti} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRABHAKAR BHARTI</h6>
                                                             <h6>Biology</h6>
                                                             <p>
                                                                 <a href="mailto:prabhakar@dpsjodhpur.in">
@@ -617,10 +617,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pradeep_Purohit} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRADEEP PUROHIT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pradeep_Purohit} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRADEEP PUROHIT</h6>
                                                             <h6>History</h6>
                                                             <p>
                                                                 <a href="mailto:pradeep@dpsjodhpur.in">
@@ -629,10 +629,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pradeepta_Das} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRADEEPTA DAS</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pradeepta_Das} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRADEEPTA DAS</h6>
                                                             <h6>Art &Craft</h6>
                                                             <p>
                                                                 <a href="mailto:pradeepta@dpsjodhpur.in">
@@ -641,10 +641,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pramod_Kishan} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRAMOD KISHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pramod_Kishan} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRAMOD KISHAN</h6>
                                                             <h6>Music</h6>
                                                             <p>
                                                                 <a href="mailto:pramod@dpsjodhpur.in">
@@ -653,10 +653,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pratiksha_Charles} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRATIKSHA CHARLES</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pratiksha_Charles} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRATIKSHA CHARLES</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:pratiksha@dpsjodhpur.in">
@@ -665,10 +665,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pratyush_Tripathi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRATYUSH TRIPATHI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pratyush_Tripathi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRATYUSH TRIPATHI</h6>
                                                             <h6>Hindi & Sanskrit</h6>
                                                             <p>
                                                                 <a href="mailto:pratyush@dpsjodhpur.in">
@@ -677,10 +677,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Preeti_Bhalla} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PREETI BHALLA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Preeti_Bhalla} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PREETI BHALLA</h6>
                                                             <h6>Business Studies</h6>
                                                             <p>
                                                                 <a href="mailto:preetib@dpsjodhpur.in">
@@ -689,10 +689,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Priyanka_Prasad} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRIYANKA PRASAD</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Priyanka_Prasad} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRIYANKA PRASAD</h6>
                                                             <h6>English </h6>
                                                             <p>
                                                                 <a href="mailto:priyankaprasad@dpsjodhpur.in">
@@ -701,10 +701,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Priyanka_Singh} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRIYANKA SINGH</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Priyanka_Singh} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRIYANKA SINGH</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:priyankasingh@dpsjodhpur.in">
@@ -713,10 +713,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Priyabka_Sinha} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRIYANKA SINHA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Priyabka_Sinha} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRIYANKA SINHA</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:priyankasinha@dpsjodhpur.in">
@@ -725,10 +725,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Poornima_Purohit} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PURNIMA PUROHIT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Poornima_Purohit} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PURNIMA PUROHIT</h6>
                                                             <h6>Hindi/Sanskrit</h6>
                                                             <p>
                                                                 <a href="mailto:purnimapurohit@dpsjodhpur.in">
@@ -737,10 +737,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Rajkumar_Shambhawani} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RAJKUMAR SHAMBHAWANI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Rajkumar_Shambhawani} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RAJKUMAR SHAMBHAWANI</h6>
                                                             <h6>Accountancy</h6>
                                                             <p>
                                                                 <a href="mailto:rajkumar@dpsjodhpur.in">
@@ -749,10 +749,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Rakhi_Chauhan} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RAKHI CHAUHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Rakhi_Chauhan} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RAKHI CHAUHAN</h6>
                                                             <h6>Dance</h6>
                                                             <p>
                                                                 <a href="mailto:rakhi@dpsjodhpur.in">
@@ -761,10 +761,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Renu_Srivastava} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RENU SRIVASTAVA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Renu_Srivastava} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RENU SRIVASTAVA</h6>
                                                             <h6>Dance</h6>
                                                             <p>
                                                                 <a href="mailto:renu@dpsjodhpur.in">
@@ -773,10 +773,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Ruchika_Bhatt} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RUCHIKA BHATT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Ruchika_Bhatt} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RUCHIKA BHATT</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:ruchika@dpsjodhpur.in">
@@ -785,10 +785,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={R_K_Dubey} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">R K DUBEY</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={R_K_Dubey} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">R K DUBEY</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:rkdubey@dpsjodhpur.in">
@@ -797,10 +797,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sameer_Dubey} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SAMEER DUBEY</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sameer_Dubey} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SAMEER DUBEY</h6>
                                                             <h6>Physical Education</h6>
                                                             <p>
                                                                 <a href="mailto:sameer@dpsjodhpur.in">
@@ -809,10 +809,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sangeeta_Gupta} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SANGEETA GUPTA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sangeeta_Gupta} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SANGEETA GUPTA</h6>
                                                             <h6>Economics</h6>
                                                             <p>
                                                                 <a href="mailto:sangeetagupta@dpsjodhpur.in">
@@ -821,10 +821,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sanjeev_Vyas} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SANJEEV VYAS</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sanjeev_Vyas} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SANJEEV VYAS</h6>
                                                             <h6>Computer Science</h6>
                                                             <p>
                                                                 <a href="mailto:sanjeev@dpsjodhpur.in">
@@ -833,10 +833,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Savita_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SAVITA SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Savita_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SAVITA SHARMA</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:savita@dpsjodhpur.in">
@@ -845,10 +845,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shabnam} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHABNAM</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shabnam} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHABNAM</h6>
                                                             <h6>Physics</h6>
                                                             <p>
                                                                 <a href="mailto:shabnam@dpsjodhpur.in">
@@ -857,10 +857,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shailja_Patil} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHAILJA PATIL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shailja_Patil} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHAILJA PATIL</h6>
                                                             <h6>Biology</h6>
                                                             <p>
                                                                 <a href="mailto:shaileja@dpsjodhpur.in">
@@ -869,10 +869,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shallu_Monga} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHALLU MONGA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shallu_Monga} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHALLU MONGA</h6>
                                                             <h6>Computer</h6>
                                                             <p>
                                                                 <a href="mailto:shallu@dpsjodhpur.in">
@@ -881,10 +881,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shehnaz_Khan} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHEHNAZ KHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shehnaz_Khan} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHEHNAZ KHAN</h6>
                                                             <h6>Economics</h6>
                                                             <p>
                                                                 <a href="mailto:shehnaz@dpsjodhpur.in">
@@ -893,10 +893,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shilpa_Bafna} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHILPA BAFNA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shilpa_Bafna} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHILPA BAFNA</h6>
                                                             <h6>Computer Science</h6>
                                                             <p>
                                                                 <a href="mailto:shilpabafna@dpsjodhpur.in">
@@ -905,10 +905,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Urmila_Chouhan} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">URMILA CHOUHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Urmila_Chouhan} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">URMILA CHOUHAN</h6>
                                                             <h6>Accountancy</h6>
                                                             <p>
                                                                 <a href="mailto:urmila@dpsjodhpur.in">
@@ -917,10 +917,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vandana_Dadeech} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VANDANA DADEECH</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vandana_Dadeech} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VANDANA DADEECH</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:vandanad@dpsjodhpur.in">
@@ -929,10 +929,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Veenu_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VEENU SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Veenu_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VEENU SHARMA</h6>
                                                             <h6>Economics</h6>
                                                             <p>
                                                                 <a href="mailto:veenu@dpsjodhpur.in">
@@ -941,10 +941,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vidhi_Bulani} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VIDHI BULANI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vidhi_Bulani} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VIDHI BULANI</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:vidhi@dpsjodhpur.in">
@@ -953,10 +953,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>  
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vikas_Saran} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VIKAS NATH SARAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vikas_Saran} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VIKAS NATH SARAN</h6>
                                                             <h6>Chemistry</h6>
                                                             <p>
                                                                 <a href="mailto:vikas@dpsjodhpur.in">
@@ -965,10 +965,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vikas_Saran} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VIVEK MISHRA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vikas_Saran} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VIVEK MISHRA</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:vivekmishra@dpsjodhpur.in">
@@ -977,10 +977,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Yogendra_Singh_Khichi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">YOGENDRA SINGH KHICHI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Yogendra_Singh_Khichi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">YOGENDRA SINGH KHICHI</h6>
                                                             <h6>Physical Education</h6>
                                                             <p>
                                                                 <a href="mailto:yogendrasingh@dpsjodhpur.in">
@@ -992,13 +992,13 @@ function Faculty() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane fade" id="middle-wing" role="tabpanel">
-                                            <div class="container">
-                                                <div class="row justify-content-center m-auto">
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Abha_Kimothi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ABHA KIMOTHI</h6>
+                                        <div className="tab-pane fade" id="middle-wing" role="tabpanel">
+                                            <div className="container">
+                                                <div className="row justify-content-center m-auto">
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Abha_Kimothi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ABHA KIMOTHI</h6>
                                                             <h6>Library</h6>
                                                             <p>
                                                                 <a href="mailto:abha@dpsjodhpur.in">
@@ -1007,10 +1007,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Akriti_Saraswat} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">AKRITI SARASWAT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Akriti_Saraswat} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">AKRITI SARASWAT</h6>
                                                             <h6>Science</h6>
                                                             <p>
                                                                 <a href="mailto:aakriti@dpsjodhpur.in">
@@ -1019,10 +1019,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Amita_Parekh} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">AMITA PAREKH</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Amita_Parekh} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">AMITA PAREKH</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:amita@dpsjodhpur.in">
@@ -1031,10 +1031,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Anil_Kumar_Asopa} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ANIL KUMAR ASOPA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Anil_Kumar_Asopa} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ANIL KUMAR ASOPA</h6>
                                                             <h6>Music</h6>
                                                             <p>
                                                                 <a href="mailto:anilasopa@dpsjodhpur.in">
@@ -1043,10 +1043,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Anita_Mathur} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ANITA MATHUR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Anita_Mathur} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ANITA MATHUR</h6>
                                                             <h6>Library</h6>
                                                             <p>
                                                                 <a href="mailto:abha@dpsjodhpur.in">
@@ -1055,10 +1055,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Anju_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ANJU SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Anju_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ANJU SHARMA</h6>
                                                             <h6>Science</h6>
                                                             <p>
                                                                 <a href="mailto:anjusharma@dpsjodhpur.in">
@@ -1067,10 +1067,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Anshu_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ANSHU SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Anshu_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ANSHU SHARMA</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:anshu@dpsjodhpur.in">
@@ -1079,10 +1079,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Anupama_Gupta} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ANUPAMA GUPTA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Anupama_Gupta} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ANUPAMA GUPTA</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:anupama@dpsjodhpur.in">
@@ -1091,10 +1091,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Arvind_Kumar_Nihal} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ARVIND KUMAR NIHAL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Arvind_Kumar_Nihal} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ARVIND KUMAR NIHAL</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:arvindkumar@dpsjodhpur.in">
@@ -1103,10 +1103,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={D_K_Pathak} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">D K PATHAK</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={D_K_Pathak} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">D K PATHAK</h6>
                                                             <h6>Hindi/Sanskrit</h6>
                                                             <p>
                                                                 <a href="mailto:dkpathak@dpsjodhpur.in">
@@ -1115,10 +1115,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={D_K_Pathak} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DEEPESH SHAMBHWAMI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={D_K_Pathak} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DEEPESH SHAMBHWAMI</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:deepeshs@dpsjodhpur.in">
@@ -1127,10 +1127,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Devendra_Kumar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DEVENDRA KUMAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Devendra_Kumar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DEVENDRA KUMAR</h6>
                                                             <h6>Computer</h6>
                                                             <p>
                                                                 <a href="mailto:devendrakumar@dpsjodhpur.in">
@@ -1139,10 +1139,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Dilip_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DILIP SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Dilip_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DILIP SHARMA</h6>
                                                             <h6>Games & Sports</h6>
                                                             <p>
                                                                 <a href="mailto:dilip@dpsjodhpur.in">
@@ -1151,10 +1151,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Dilip_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DIVYA MISHRA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Dilip_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DIVYA MISHRA</h6>
                                                             <h6>Environmental Science</h6>
                                                             <p>
                                                                 <a href="mailto:divya@dpsjodhpur.in">
@@ -1163,10 +1163,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Dorothy_James} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DOROTHY JAMES</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Dorothy_James} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DOROTHY JAMES</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:dorothy@dpsjodhpur.in">
@@ -1175,10 +1175,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Durga_Arya} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DURGA ARYA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Durga_Arya} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DURGA ARYA</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:durga@dpsjodhpur.in">
@@ -1187,10 +1187,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Kamlesh_Shambhwani} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">KAMLESH SHAMBHWANI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Kamlesh_Shambhwani} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">KAMLESH SHAMBHWANI</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:kamlesh@dpsjodhpur.in">
@@ -1199,10 +1199,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Mamta_Gupta} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MAMTA GUPTA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Mamta_Gupta} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MAMTA GUPTA</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:mamta@dpsjodhpur.in">
@@ -1211,10 +1211,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Maninder_Ratia} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MANINDER RATIA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Maninder_Ratia} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MANINDER RATIA</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:maninder@dpsjodhpur.in">
@@ -1223,10 +1223,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Manju_Upadhyay} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MANJU UPADHYAY</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Manju_Upadhyay} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MANJU UPADHYAY</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:manju@dpsjodhpur.in">
@@ -1235,10 +1235,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Meenakshi_Kriplani} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MEENAKSHI KRIPLANI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Meenakshi_Kriplani} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MEENAKSHI KRIPLANI</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:meenakshikriplani@dpsjodhpur.in">
@@ -1247,10 +1247,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Meenakshi_Kriplani} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MEENAKSHI SODHA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Meenakshi_Kriplani} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MEENAKSHI SODHA</h6>
                                                             <h6>Hindi/Sanskrit</h6>
                                                             <p>
                                                                 <a href="mailto:meenakshisodha@dpsjodhpur.in">
@@ -1259,10 +1259,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Mohd_Asif_Khan} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MOHD. ASIF KHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Mohd_Asif_Khan} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MOHD. ASIF KHAN</h6>
                                                             <h6>Hindi/Sanskrit</h6>
                                                             <p>
                                                                 <a href="mailto:asifkhan@dpsjodhpur.in">
@@ -1271,10 +1271,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Naveen_Gehlot} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NAVEEN GEHLOT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Naveen_Gehlot} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NAVEEN GEHLOT</h6>
                                                             <h6>Games & Sports</h6>
                                                             <p>
                                                                 <a href="mailto:naveen@dpsjodhpur.in">
@@ -1283,10 +1283,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Naveen_Gehlot} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NEHA CHOUHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Naveen_Gehlot} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NEHA CHOUHAN</h6>
                                                             <h6>Science</h6>
                                                             <p>
                                                                 <a href="mailto:neha_science@dpsjodhpur.in">
@@ -1295,10 +1295,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Naveen_Gehlot} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NEHA YADAV</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Naveen_Gehlot} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NEHA YADAV</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:nehayadav@dpsjodhpur.in">
@@ -1307,10 +1307,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Nishtha_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NISHTHA SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Nishtha_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NISHTHA SHARMA</h6>
                                                             <h6>Science</h6>
                                                             <p>
                                                                 <a href="mailto:nishtha@dpsjodhpur.in">
@@ -1319,10 +1319,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Nitika_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NITIKA SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Nitika_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NITIKA SHARMA</h6>
                                                             <h6>Science</h6>
                                                             <p>
                                                                 <a href="mailto:nitika@dpsjodhpur.in">
@@ -1331,10 +1331,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Nonita_Choudhary} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NONITA CHOUDHARY</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Nonita_Choudhary} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NONITA CHOUDHARY</h6>
                                                             <h6>Dance</h6>
                                                             <p>
                                                                 <a href="mailto:asifkhan@dpsjodhpur.in">
@@ -1343,10 +1343,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Parthsarthi_Vyas} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PARTHSARTHI VYAS</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Parthsarthi_Vyas} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PARTHSARTHI VYAS</h6>
                                                             <h6>Hindi & Sanskrit</h6>
                                                             <p>
                                                                 <a href="mailto:parthsarthi@dpsjodhpur.in">
@@ -1355,10 +1355,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pradeep_Kumar_Panda} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRADEEP KUMAR PANDA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pradeep_Kumar_Panda} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRADEEP KUMAR PANDA</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:pkpanda@dpsjodhpur.in">
@@ -1367,10 +1367,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pradeep_Kumar_Panda} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">POOJABEN D PUROHIT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pradeep_Kumar_Panda} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">POOJABEN D PUROHIT</h6>
                                                             <h6>Dance</h6>
                                                             <p>
                                                                 <a href="mailto:poojar@dpsjodhpur.in">
@@ -1379,10 +1379,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pradeep_Kumar_Panda} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRIYANKA SODHA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pradeep_Kumar_Panda} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRIYANKA SODHA</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:priyankasodha@dpsjodhpur.in">
@@ -1391,10 +1391,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pushpa_Vijay_Pant} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PUSHPA VIJAY PANT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pushpa_Vijay_Pant} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PUSHPA VIJAY PANT</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:pvpant@dpsjodhpur.in">
@@ -1403,10 +1403,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Raja_Shirazi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RAJA SHIRAZI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Raja_Shirazi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RAJA SHIRAZI</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:parthsarthi@dpsjodhpur.in">
@@ -1415,10 +1415,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Rajesh_Jha} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RAJESH JHA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Rajesh_Jha} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RAJESH JHA</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:rajeshjha@dpsjodhpur.in">
@@ -1427,10 +1427,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Rajkamal_Dosi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RAJKAMAL DOSI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Rajkamal_Dosi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RAJKAMAL DOSI</h6>
                                                             <h6>Hindi & Sanskrit</h6>
                                                             <p>
                                                                 <a href="mailto:rajkamal@dpsjodhpur.in">
@@ -1439,10 +1439,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Rajni_Gupta} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RAJNI GUPTA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Rajni_Gupta} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RAJNI GUPTA</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:rajni@dpsjodhpur.in">
@@ -1451,10 +1451,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Rashmi_Bhardwaj} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RASHMI BHARDWAJ</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Rashmi_Bhardwaj} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RASHMI BHARDWAJ</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:rashmibhardwaj@dpsjodhpur.in">
@@ -1463,10 +1463,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Rashmi_Rathore} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RASHMI RATHORE</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Rashmi_Rathore} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RASHMI RATHORE</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:rashmirathore@dpsjodhpur.in">
@@ -1475,10 +1475,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Rashmi_Seth} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RASHMI SETH</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Rashmi_Seth} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RASHMI SETH</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:rashmiseth@dpsjodhpur.in">
@@ -1487,10 +1487,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Ravi_Poddar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RAVI PODDAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Ravi_Poddar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RAVI PODDAR</h6>
                                                             <h6>Art & Craft</h6>
                                                             <p>
                                                                 <a href="mailto:ravipoddar@dpsjodhpur.in">
@@ -1499,10 +1499,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Ravi_Poddar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">REEMA CHOUDHARY</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Ravi_Poddar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">REEMA CHOUDHARY</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:reema@dpsjodhpur.in">
@@ -1511,10 +1511,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sachin_Kumar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SACHIN KUMAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sachin_Kumar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SACHIN KUMAR</h6>
                                                             <h6>Science</h6>
                                                             <p>
                                                                 <a href="mailto:sachin@dpsjodhpur.in">
@@ -1523,10 +1523,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sapna_Pittie} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SAPNA PITTIE</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sapna_Pittie} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SAPNA PITTIE</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:sapna@dpsjodhpur.in">
@@ -1535,10 +1535,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shalini_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHALINI SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shalini_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHALINI SHARMA</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:shalinisharma@dpsjodhpur.in">
@@ -1547,10 +1547,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sheetal_Choudhary} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHEETAL CHOUDHARY</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sheetal_Choudhary} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHEETAL CHOUDHARY</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:sheetalchoudhary@dpsjodhpur.in">
@@ -1559,10 +1559,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shikha_Atul} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHIKHA ATUL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shikha_Atul} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHIKHA ATUL</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:shikha@dpsjodhpur.in">
@@ -1571,10 +1571,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shikha_Atul} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SIMANTA PAUL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shikha_Atul} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SIMANTA PAUL</h6>
                                                             <h6>Art & Craft</h6>
                                                             <p>
                                                                 <a href="mailto:simanta@dpsjodhpur.in">
@@ -1583,10 +1583,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shilpa_Singhvi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHILPA SINGHVI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shilpa_Singhvi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHILPA SINGHVI</h6>
                                                             <h6>Computer</h6>
                                                             <p>
                                                                 <a href="mailto:shilpa@dpsjodhpur.in">
@@ -1595,10 +1595,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shilpi_Mazumdar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHILPI MAZUMDAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shilpi_Mazumdar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHILPI MAZUMDAR</h6>
                                                             <h6>Science</h6>
                                                             <p>
                                                                 <a href="mailto:shilpi@dpsjodhpur.in">
@@ -1607,10 +1607,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Shipra_Mathur} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SHIPRA MATHUR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Shipra_Mathur} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SHIPRA MATHUR</h6>
                                                             <h6>Science</h6>
                                                             <p>
                                                                 <a href="mailto:shipra@dpsjodhpur.in">
@@ -1619,10 +1619,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sonu_K_Champawat} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SONU K CHAMPAWAT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sonu_K_Champawat} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SONU K CHAMPAWAT</h6>
                                                             <h6>Art &Craft</h6>
                                                             <p>
                                                                 <a href="mailto:sonu@dpsjodhpur.in">
@@ -1631,10 +1631,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sunita_Gaur} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SUNITA GAUR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sunita_Gaur} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SUNITA GAUR</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:sunitagaur@dpsjodhpur.in">
@@ -1643,10 +1643,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Surbhi_Bhandari} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SURBHI BHANDARI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Surbhi_Bhandari} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SURBHI BHANDARI</h6>
                                                             <h6>Maths</h6>
                                                             <p>
                                                                 <a href="mailto:surbhibhandari@dpsjodhpur.in">
@@ -1655,10 +1655,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Tarannum_Rizvi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">TARANNUM RIZVI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Tarannum_Rizvi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">TARANNUM RIZVI</h6>
                                                             <h6>Science</h6>
                                                             <p>
                                                                 <a href="mailto:tarannum@dpsjodhpur.in">
@@ -1667,10 +1667,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Tarun_Kumar_Dangi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">TARUN KUMAR DANGI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Tarun_Kumar_Dangi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">TARUN KUMAR DANGI</h6>
                                                             <h6>Music</h6>
                                                             <p>
                                                                 <a href="mailto:tarun@dpsjodhpur.in">
@@ -1679,10 +1679,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vinita_Bora} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VINITA BORA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vinita_Bora} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VINITA BORA</h6>
                                                             <h6>Social Science</h6>
                                                             <p>
                                                                 <a href="mailto:vinitacalla@dpsjodhpur.in">
@@ -1691,10 +1691,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vinita_Bora} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VINITA VYAS</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vinita_Bora} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VINITA VYAS</h6>
                                                             <h6>Hindi & Sanskrit</h6>
                                                             <p>
                                                                 <a href="mailto:vinita@dpsjodhpur.in">
@@ -1703,10 +1703,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vinod_Kumar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VINOD KUMAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vinod_Kumar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VINOD KUMAR</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:vinod@dpsjodhpur.in">
@@ -1715,10 +1715,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vipul_C_Kimothi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VIPUL C KIMOTHI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vipul_C_Kimothi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VIPUL C KIMOTHI</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:vipul@dpsjodhpur.in">
@@ -1730,13 +1730,13 @@ function Faculty() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane fade" id="junior-wing" role="tabpanel">
-                                            <div class="container">
-                                                <div class="row justify-content-center m-auto">
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Amita_Jpsjo} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">AMITA JOSHI</h6>
+                                        <div className="tab-pane fade" id="junior-wing" role="tabpanel">
+                                            <div className="container">
+                                                <div className="row justify-content-center m-auto">
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Amita_Jpsjo} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">AMITA JOSHI</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:amitajoshi@dpsjodhpur.in">
@@ -1745,10 +1745,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Amita_Jpsjo} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ANISHA PUROHIT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Amita_Jpsjo} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ANISHA PUROHIT</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:anisha@dpsjodhpur.in">
@@ -1757,10 +1757,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Anupama_Vakil} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ANUPAMA VAKIL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Anupama_Vakil} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ANUPAMA VAKIL</h6>
                                                             <h6>Dance</h6>
                                                             <p>
                                                                 <a href="mailto:anupamav@dpsjodhpur.in">
@@ -1769,10 +1769,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Ashima_Vyas} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">ASHIMA VYAS</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Ashima_Vyas} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">ASHIMA VYAS</h6>
                                                             <h6>EVS</h6>
                                                             <p>
                                                                 <a href="mailto:ashima@dpsjodhpur.in">
@@ -1781,10 +1781,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Ashima_Vyas} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">BHARTI KHIMNANI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Ashima_Vyas} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">BHARTI KHIMNANI</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:bhartikhimnani@dpsjodhpur.in">
@@ -1793,10 +1793,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Chandrika_Thanvi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">CHANDRIKA THANVI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Chandrika_Thanvi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">CHANDRIKA THANVI</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:chandrika@dpsjodhpur.in">
@@ -1805,10 +1805,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Deepa_Sankhla} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">DEEPA SANKHLA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Deepa_Sankhla} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">DEEPA SANKHLA</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:deepa@dpsjodhpur.in">
@@ -1817,10 +1817,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Chandrika_Thanvi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">EKAS KAUR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Chandrika_Thanvi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">EKAS KAUR</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:ekas    @dpsjodhpur.in">
@@ -1829,10 +1829,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Gulab_Kanwar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">GULAB KANWAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Gulab_Kanwar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">GULAB KANWAR</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:gulab@dpsjodhpur.in">
@@ -1841,10 +1841,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Harita_Tewari} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">HARITA TEWARI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Harita_Tewari} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">HARITA TEWARI</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:harita@dpsjodhpur.in">
@@ -1853,10 +1853,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Harnaryan_Mathur} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">HARNARYAN MATHUR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Harnaryan_Mathur} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">HARNARYAN MATHUR</h6>
                                                             <h6>Music</h6>
                                                             <p>
                                                                 <a href="mailto:harnarayan@dpsjodhpur.in">
@@ -1865,10 +1865,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Jyoti_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">JYOTI SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Jyoti_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">JYOTI SHARMA</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:jyotisharma@dpsjodhpur.in">
@@ -1877,10 +1877,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Jyoti_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">JYOTSNA VYAS</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Jyoti_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">JYOTSNA VYAS</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:jyotsna@dpsjodhpur.in">
@@ -1889,10 +1889,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Kanchan_Kumari} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">KANCHAN KUMARI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Kanchan_Kumari} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">KANCHAN KUMARI</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:kanchan@dpsjodhpur.in">
@@ -1901,10 +1901,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Kavita_Warde} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">KAVITA WARDE</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Kavita_Warde} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">KAVITA WARDE</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:kavita@dpsjodhpur.in">
@@ -1913,10 +1913,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Komal_Jacob} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">KOMAL JACOB</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Komal_Jacob} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">KOMAL JACOB</h6>
                                                             <h6>EVS</h6>
                                                             <p>
                                                                 <a href="mailto:komal@dpsjodhpur.in">
@@ -1925,10 +1925,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Laxmi_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">LAXMI SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Laxmi_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">LAXMI SHARMA</h6>
                                                             <h6>Art & Craft</h6>
                                                             <p>
                                                                 <a href="mailto:laxmi@dpsjodhpur.in">
@@ -1937,10 +1937,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Madhu_Choudhary} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MADHU CHOUDHARY</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Madhu_Choudhary} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MADHU CHOUDHARY</h6>
                                                             <h6>EVS</h6>
                                                             <p>
                                                                 <a href="mailto:madhu@dpsjodhpur.in">
@@ -1949,10 +1949,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Mahima_Malhotra} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MAHIMA MALHOTRA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Mahima_Malhotra} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MAHIMA MALHOTRA</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:mahima@dpsjodhpur.in">
@@ -1961,10 +1961,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Manisha_Baleshwar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MANISHA BALESHWAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Manisha_Baleshwar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MANISHA BALESHWAR</h6>
                                                             <h6>Games & Sports</h6>
                                                             <p>
                                                                 <a href="mailto:manishabaleshwar@dpsjodhpur.in">
@@ -1973,10 +1973,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Manisha_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MANISHA SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Manisha_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MANISHA SHARMA</h6>
                                                             <h6>EVS</h6>
                                                             <p>
                                                                 <a href="mailto:manishadsharma@dpsjodhpur.in">
@@ -1985,10 +1985,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Marium_Abra} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MARIUM ABRA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Marium_Abra} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MARIUM ABRA</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:marium@dpsjodhpur.in">
@@ -1997,10 +1997,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Mayuri_Narang} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MAYURI NARANG</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Mayuri_Narang} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MAYURI NARANG</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:mayuri@dpsjodhpur.in">
@@ -2009,10 +2009,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Meenakshi_Vyas} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MEENAKSHI VYAS</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Meenakshi_Vyas} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MEENAKSHI VYAS</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:meenakshivyas@dpsjodhpur.in">
@@ -2021,10 +2021,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Minakshi_Choudhary} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MINAKSHI CHOUDHARY</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Minakshi_Choudhary} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MINAKSHI CHOUDHARY</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:minakshi@dpsjodhpur.in">
@@ -2033,10 +2033,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Monica_Purohit} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MONICA PUROHIT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Monica_Purohit} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MONICA PUROHIT</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:monicapurohit@dpsjodhpur.in">
@@ -2045,10 +2045,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Monica_Vyas} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">MONICA VYAS</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Monica_Vyas} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">MONICA VYAS</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:monikavyas@dpsjodhpur.in">
@@ -2057,10 +2057,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Namit_Dhillon} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NAMIT DHILLON</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Namit_Dhillon} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NAMIT DHILLON</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:namit@dpsjodhpur.in">
@@ -2069,10 +2069,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Namit_Dhillon} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NANCY OMPRAKASH CHAWLA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Namit_Dhillon} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NANCY OMPRAKASH CHAWLA</h6>
                                                             <h6>Primany Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:nancychawla@dpsjodhpur.in">
@@ -2081,10 +2081,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Namit_Dhillon} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NEETU HALDAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Namit_Dhillon} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NEETU HALDAR</h6>
                                                             <h6>Primany Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:neetu@dpsjodhpur.in">
@@ -2093,10 +2093,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Namit_Dhillon} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NEHA KUSHWAHA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Namit_Dhillon} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NEHA KUSHWAHA</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:nehakushwaha@dpsjodhpur.in">
@@ -2105,10 +2105,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Nidhi_Kansal} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">NIDHI KANSAL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Nidhi_Kansal} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">NIDHI KANSAL</h6>
                                                             <h6>Hindi</h6>
                                                             <p>
                                                                 <a href="mailto:nidhi@dpsjodhpur.in">
@@ -2117,10 +2117,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Parwati_Punjabi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PARWATI PUNJABI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Parwati_Punjabi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PARWATI PUNJABI</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:parvati@dpsjodhpur.in">
@@ -2129,10 +2129,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Pooja_Parashar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">POOJA PARASHAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Pooja_Parashar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">POOJA PARASHAR</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:pooja@dpsjodhpur.in">
@@ -2141,10 +2141,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Poonam_Bhatia} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">POONAM BHATIA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Poonam_Bhatia} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">POONAM BHATIA</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:poonambhatia@dpsjodhpur.in">
@@ -2153,10 +2153,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Preeti_Borana} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PREETI BORANA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Preeti_Borana} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PREETI BORANA</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:preeti@dpsjodhpur.in">
@@ -2165,10 +2165,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Preety_Mathur} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PREETY MATHUR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Preety_Mathur} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PREETY MATHUR</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:preety@dpsjodhpur.in">
@@ -2177,10 +2177,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Prem_Rathore} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PREM RATHORE</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Prem_Rathore} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PREM RATHORE</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:prem@dpsjodhpur.in">
@@ -2189,10 +2189,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Priyanka_Vij} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">PRIYANKA VIJ</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Priyanka_Vij} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">PRIYANKA VIJ</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:priyanka@dpsjodhpur.in">
@@ -2201,10 +2201,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Rimple_Quershi} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RIMPLE QUERESHI</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Rimple_Quershi} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RIMPLE QUERESHI</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:rimple@dpsjodhpur.in">
@@ -2213,10 +2213,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Ritu_Handa} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RITU HANDA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Ritu_Handa} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RITU HANDA</h6>
                                                             <h6>English</h6>
                                                             <p>
                                                                 <a href="mailto:ritu@dpsjodhpur.in">
@@ -2225,10 +2225,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Ruchi_Passi_Sehgal} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">RUCHI PASSI SEHGAL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Ruchi_Passi_Sehgal} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">RUCHI PASSI SEHGAL</h6>
                                                             <h6>Primary</h6>
                                                             <p>
                                                                 <a href="mailto:ruchi@dpsjodhpur.in">
@@ -2237,10 +2237,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sarika_Bagrecha} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SARIKA BAGRECHA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sarika_Bagrecha} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SARIKA BAGRECHA</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:sarika@dpsjodhpur.in">
@@ -2249,10 +2249,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Seema_Rateshwar} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SEEMA RATESHWAR</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Seema_Rateshwar} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SEEMA RATESHWAR</h6>
                                                             <h6>Library</h6>
                                                             <p>
                                                                 <a href="mailto:seemaratheshwar@dpsjodhpur.in">
@@ -2261,10 +2261,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sonal_Chouhan} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SONAL CHOUHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sonal_Chouhan} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SONAL CHOUHAN</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:sonal@dpsjodhpur.in">
@@ -2273,10 +2273,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sulochana_Asopa} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SULOCHANA ASOPA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sulochana_Asopa} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SULOCHANA ASOPA</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:sulochna@dpsjodhpur.in">
@@ -2285,10 +2285,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sunita_Choudhary} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SUNITA CHOUDHARY</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sunita_Choudhary} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SUNITA CHOUDHARY</h6>
                                                             <h6>Games & Sports</h6>
                                                             <p>
                                                                 <a href="mailto:sunitachoudhary@dpsjodhpur.in">
@@ -2297,10 +2297,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sunita_Rathore} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SUNITA RATHORE</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sunita_Rathore} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SUNITA RATHORE</h6>
                                                             <h6>Art & Craft</h6>
                                                             <p>
                                                                 <a href="mailto:sunitarathore@dpsjodhpur.in">
@@ -2309,10 +2309,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sunita_Rawat} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SUNITA RAWAT</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sunita_Rawat} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SUNITA RAWAT</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:sunitarawat@dpsjodhpur.in">
@@ -2321,10 +2321,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Sunita_Rawat} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">SUSHMITA MANDAL</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Sunita_Rawat} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">SUSHMITA MANDAL</h6>
                                                             <h6>Pre Primary</h6>
                                                             <p>
                                                                 <a href="mailto:sushmita@dpsjodhpur.in">
@@ -2333,10 +2333,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Tripti_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">TRIPTI SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Tripti_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">TRIPTI SHARMA</h6>
                                                             <h6>Mathematics</h6>
                                                             <p>
                                                                 <a href="mailto:tripti@dpsjodhpur.in">
@@ -2345,10 +2345,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Tripti_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VARSHA CHOUHAN</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Tripti_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VARSHA CHOUHAN</h6>
                                                             <h6>Primary Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:varshachouhan@dpsjodhpur.in">
@@ -2357,10 +2357,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vishal_C_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VISHAL C SHARMA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vishal_C_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VISHAL C SHARMA</h6>
                                                             <h6>Computer</h6>
                                                             <p>
                                                                 <a href="mailto:vishal@dpsjodhpur.in">
@@ -2369,10 +2369,10 @@ function Faculty() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-3 col-6">
-                                                        <div class="wings-contents">
-                                                            <img src={Vishal_C_Sharma} class="img-fluid" alt="" />
-                                                            <h6 class="teachers-name pt-3">VRATIKA KATTA</h6>
+                                                    <div className="col-lg-2 col-md-3 col-6">
+                                                        <div className="wings-contents">
+                                                            <img src={Vishal_C_Sharma} className="img-fluid" alt="" />
+                                                            <h6 className="teachers-name pt-3">VRATIKA KATTA</h6>
                                                             <h6>Primay Teacher</h6>
                                                             <p>
                                                                 <a href="mailto:vratika@dpsjodhpur.in">

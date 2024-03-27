@@ -688,6 +688,7 @@ thead tr th {
   background-size: cover;
   background-position: center center;
 }
+
 .authorities_message h3 {
   font-size: 30px;
   border-left: 5px solid #00a651;
@@ -994,7 +995,7 @@ thead tr th {
 
 .hostel-policy {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+
 }
 
 .hostel-policy h3 {
@@ -1107,42 +1108,31 @@ thead tr th {
   }
 
   .counter-content h2 {
-    font-size: 33 px;
+    font-size: 33px;
   }
 
   .counter {
-    justify-content: end;
+    justify-content: flex-start;
+    padding: 10px 0;
   }
 
   .counter-one::before {
     content: "";
-    position: absolute;
-    top: 8px;
-    right: -7px;
-    background-color: #e1dddd;
-    width: 3px;
-    height: 50px;
+    display: none;
   }
 
   .counter-three::before {
     content: "";
-    position: absolute;
-    top: 8px;
-    right: -7px;
-    background-color: #e1dddd;
-    width: 3px;
-    height: 50px;
+    display: none;
   }
 
   .counter-two::before {
     content: "";
     display: none;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    background-color: #e1dddd;
-    width: 3px;
-    height: 50px;
+  }
+
+  .counter-img {
+    padding: 0px 70px;
   }
 
   /* About */
@@ -1312,7 +1302,7 @@ thead tr th {
   .explore-us iframe {
     height: 350px;
   }
-  
+
   .exam-policy table.table-2 {
     font-size: 6px !important;
   }
@@ -1320,7 +1310,7 @@ thead tr th {
   .exam-policy .table-3 {
     width: 100%;
   }
-  
+
 
 }
 
@@ -1375,18 +1365,14 @@ thead tr th {
   }
 
   .counter {
-    justify-content: center;
-  }
-
-  .counter-four {
-    padding-left: 40px;
+    justify-content: flex-start;
   }
 
   .counter-one::before {
     content: "";
     position: absolute;
     top: 8px;
-    right: -30px;
+    right: 12px;
     background-color: #e1dddd;
     width: 3px;
     height: 50px;
@@ -1407,7 +1393,7 @@ thead tr th {
     content: "";
     position: absolute;
     top: 8px;
-    right: -30px;
+    right: 12px;
     background-color: #e1dddd;
     width: 3px;
     height: 50px;
@@ -1416,7 +1402,7 @@ thead tr th {
   .exam-policy .table-3 {
     width: 100%;
   }
-  
+
 }
 
 

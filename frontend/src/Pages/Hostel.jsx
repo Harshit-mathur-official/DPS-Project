@@ -9,12 +9,12 @@ function Hostel() {
 
             {/* Hostel Section */}
             <section>
-                <div class="container-fluid wing px-0">
+                <div className="container-fluid wing px-0">
                     <h2>HOSTEL WING</h2>
-                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src={hostel} class="d-block w-100" alt="..."/>
+                    <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                                <img src={hostel} className="d-block w-100" alt="..."/>
                             </div>
                         </div>
                     </div>

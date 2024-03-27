@@ -1,25 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import Home from './Pages/Home';
 import About from './Pages/About';
-import FeeStructure from './Pages/FeeStructure';
-import SchoolRules from './Pages/SchoolRules';
-import MandatoryPublicDisclosure from './Pages/MandatoryPublicDisclosure';
-import PrimaryWing from './Pages/PrimaryWing';
-import MiddleWing from './Pages/MiddleWing';
-import SeniorWing from './Pages/SeniorWing';
-import AlumniRegister from './Pages/AlumniRegister';
-import Hostel from './Pages/Hostel';
-import Faculty from './Pages/Faculty';
 import AdmissionPolicy from './Pages/AdmissionPolicy';
-import HostelPolicy from './Pages/HostelPolicy';
+import AlumniRegister from './Pages/AlumniRegister';
 import ExamPolicy from './Pages/ExamPolicy';
+import Faculty from './Pages/Faculty';
+import FeeStructure from './Pages/FeeStructure';
+import Home from './Pages/Home';
+import Hostel from './Pages/Hostel';
+import HostelPolicy from './Pages/HostelPolicy';
+import MandatoryPublicDisclosure from './Pages/MandatoryPublicDisclosure';
+import MiddleWingSchool from './Pages/MiddleWingSchool';
+import PrimaryWingSchoool from './Pages/PrimaryWingSchool';
+import SchoolRules from './Pages/SchoolRules';
+import SeniorWingSchool from './Pages/SeniorWingSchool';
 
 
 const router = createBrowserRouter([
@@ -45,15 +44,15 @@ const router = createBrowserRouter([
   },
   {
     path: '/primary-wing',
-    element: <PrimaryWing />
+    element: <PrimaryWingSchoool/>
   },
   {
     path: '/middle-wing',
-    element: <MiddleWing />
+    element: <MiddleWingSchool/>
   },
   {
     path: '/senior-wing',
-    element: <SeniorWing />
+    element: <SeniorWingSchool/>
   },
   {
     path: '/hostel',

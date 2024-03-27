@@ -8,13 +8,13 @@ function SchoolRules() {
 
             {/*  */}
             <section>
-                <div class="container-fluid">
-                    <div class="school-rules-heading">
+                <div className="container-fluid">
+                    <div className="school-rules-heading">
                         <h3>RULES FOR MODE OF FEE PAYMENT</h3>
                     </div>
-                    <div class="container school-rules">
-                        <div class="row">
-                            <div class="col-12">
+                    <div className="container school-rules">
+                        <div className="row">
+                            <div className="col-12">
                                 <div>
                                     <ol>
                                         <li>Fee is payable for the full year in 3 installments using Eazypay (Net-banking/Debit
@@ -63,13 +63,13 @@ function SchoolRules() {
                     </div>
                 </div>
 
-                <div class="container-fluid">
-                    <div class="school-rules-heading">
+                <div className="container-fluid">
+                    <div className="school-rules-heading">
                         <h3>GENERAL SCHOOL RULES</h3>
                     </div>
-                    <div class="container school-rules">
-                        <div class="row">
-                            <div class="col-12">
+                    <div className="container school-rules">
+                        <div className="row">
+                            <div className="col-12">
                                 <div>
                                     <ol>
                                         <li>Every student should carry his/her ALMANAC to school every day.</li>
@@ -128,14 +128,14 @@ function SchoolRules() {
                     </div>
                 </div>
 
-                <div class="container-fluid">
-                    <div class="school-rules-heading">
+                <div className="container-fluid">
+                    <div className="school-rules-heading">
                         <h3>GENERAL LIBRARY RULES</h3>
                     </div>
 
-                    <div class="container school-rules">
-                        <div class="row">
-                            <div class="col-12">
+                    <div className="container school-rules">
+                        <div className="row">
+                            <div className="col-12">
                                 <div>
                                     <p>The school library is open to all bonafide students of the school. All the classes are
                                         provided with one/two library periods per week. The students should observe the
@@ -167,14 +167,14 @@ function SchoolRules() {
                     </div>
                 </div>
 
-                <div class="container-fluid">
-                    <div class="school-rules-heading">
+                <div className="container-fluid">
+                    <div className="school-rules-heading">
                         <h3>RULES FOR SCHOOL TRANSPORT</h3>
                     </div>
 
-                    <div class="container school-rules">
-                        <div class="row">
-                            <div class="col-12">
+                    <div className="container school-rules">
+                        <div className="row">
+                            <div className="col-12">
                                 <div>
                                     <p>Students can avail the school transport subject to the availability of seats. The routes
                                         of the school buses are drawn up and the parents should consult the school transport In
@@ -210,14 +210,14 @@ function SchoolRules() {
                     </div>
                 </div>
 
-                <div class="container-fluid">
-                    <div class="school-rules-heading">
+                <div className="container-fluid">
+                    <div className="school-rules-heading">
                         <h3>RULES REGARDING ABSENCE</h3>
                     </div>
 
-                    <div class="container school-rules">
-                        <div class="row">
-                            <div class="col-12">
+                    <div className="container school-rules">
+                        <div className="row">
+                            <div className="col-12">
                                 <div>
                                     <p>The parents must ensure the following:</p>
                                     <ol>
@@ -255,7 +255,7 @@ function SchoolRules() {
                                         </li>
                                     </ol>
 
-                                    <p class="fs-4" style={{ fontWeight: '500' }}>WITHDRAWALS</p>
+                                    <p className="fs-4" style={{ fontWeight: '500' }}>WITHDRAWALS</p>
                                     <ol>
                                         <li>One clear calendar month's notice in writing or a month's fees in lieu of such
                                             notice must be given before a pupil can be withdrawn.</li>
@@ -276,7 +276,7 @@ function SchoolRules() {
                                         </li>
                                     </ol>
 
-                                    <p class="fs-4" style={{ fontWeight: '500' }}>PUNISHMENTS</p>
+                                    <p className="fs-4" style={{ fontWeight: '500' }}>PUNISHMENTS</p>
                                     <ol type="a">
                                         <li>Yellow Card- Serious offences which reflect adversely on a student's conduct eg.
                                             breaking bounds, disobedience, telling lies, bunking school indicate the award of a
